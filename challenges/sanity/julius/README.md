@@ -1,9 +1,14 @@
-# Comments_Down_Below
+# Julius
+
 ## Question Text
-Find the flag! It is somewhere here: link to page
+13 rotations
+*Creator - Chuan Kai (@exetr)*
+
 ## Setup Guide
-1. Setup web host to serve index.html
+1. Create text file with caesar cipher, rotated 13 times
+
 ## Distribution
-## Solution
-1. Inspect elements of the page
-2. Scroll down to find flag commented out
+1. Distribute text file in distrib folder
+
+## Solution 
+1. Using a cipher solver online, decrypt with key 13
