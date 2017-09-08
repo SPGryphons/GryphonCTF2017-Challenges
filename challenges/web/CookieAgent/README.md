@@ -2,7 +2,7 @@
 
 ## Question Text
 
-I found this mysterious secret agency site while browsing the web, please help me find out what conspiracies lies within??!!?!?!?!
+I found this mysterious secret agency site while browsing the web, please help me find out what conspiracies lies within??!!?
 
 Created by paux
 
@@ -10,8 +10,9 @@ Created by paux
 1. run startup.sh
 
 ## Distribution
-no files to be distributed
+< ip > : < port >
 
+as of now port is `9911`
 ## Solution
 
 1.  when inspecting elements, you will notice that the background image is located in the directory called "more"
