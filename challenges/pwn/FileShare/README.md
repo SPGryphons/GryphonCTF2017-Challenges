@@ -6,7 +6,7 @@ I created this service where you can leave files for other people to view! I hav
 Created by paux
 
 ## Setup Guide
-1. TODO
+1. run `bash start.sh`
 
 ## Distribution
 `<ip>:<port>`
