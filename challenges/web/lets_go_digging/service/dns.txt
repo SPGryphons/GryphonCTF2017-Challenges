@@ -1,0 +1,1 @@
+@	10800	IN	TXT "GCTF{d1gging_m3_a_d33p_d33p_h0l3}"

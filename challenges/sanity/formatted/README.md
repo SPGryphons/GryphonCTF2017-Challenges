@@ -1,7 +1,8 @@
-#formatted
+# Formatted
 
 ## Question Text
 That file seems rather picturesque... I wonder why?
+
 *Creator - Chuan Kai (@exetr)*
 
 ## Setup Guide
@@ -13,3 +14,5 @@ That file seems rather picturesque... I wonder why?
 ## Solution
 1. Change format to .png
 2. Open using image viewer to find flag
+### Flag
+`GCTF{wr0ng-f0rma7z_n0t_g00d}`

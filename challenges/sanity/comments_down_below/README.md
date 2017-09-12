@@ -2,6 +2,7 @@
 
 ## Question Text
 Find the flag! It is somewhere here: link to page
+
 *Creator - Chuan Kai (@exetr)*
 
 ## Setup Guide
@@ -13,3 +14,5 @@ Find the flag! It is somewhere here: link to page
 ## Solution
 1. Inspect elements of the page
 2. Scroll down to find flag commented out
+###Flag
+`GCTF{c0mm3nt_-_c0mm3nt4ry_4_dayz}`
