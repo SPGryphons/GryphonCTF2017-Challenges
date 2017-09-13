@@ -8,5 +8,6 @@ RUN rm /var/www/html/index.html
 RUN rmdir /var/www/html
 ADD ./src /var/www
 COPY ./setup.sh /
+COPY ./mysqld.sock /var/run/mysqld/.
 ENTRYPOINT ["bash","/setup.sh"]
 EXPOSE 80
