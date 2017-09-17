@@ -2,9 +2,9 @@
 
 ## Question Text
 
-It is said that steganography was first discovered within the intricate designs baked onto mooncakes. The Chinese made used of this technique during the China-Mongolia war by using mooncakes as their inconspicuous medium of communication.
+It is said that steganography was first discovered within the intricate designs baked onto mooncakes. The Chinese made use of this technique during the China-Mongolia war by using mooncakes as their inconspicuous medium of communication.
 
-Mid-Autumn arrives yet again. You can't help to notice a sleek, dark mooncake box lying on the dining table. The design puzzles you. Is that a QR code? Are those binary digits?? Are they trying to promote their mooncake brand's website, or am I missing something?
+Mid-Autumn arrives yet again, and you can't help to notice a sleek, dark mooncake box lying on the dining table. The design puzzles you. Is that a QR code? Are those binary digits?? Are they trying to promote their mooncake brand, or am I just missing something?
 
 Created by Optixal (Shawn Pang)
 
@@ -35,7 +35,7 @@ Created by Optixal (Shawn Pang)
 
 >![Reconstructed QR](solution/mooncake_solution.png)
 
-Well-versed students may use tools to apply the Reed-Solomon error recovering techniques to fully reconstruct the QR code. One written in Python may be found here: https://github.com/tomerfiliba/reedsolomon The current challenge is already tedious, using the tool is unnecessary as you do not need to recover 100% of the QR code (since the format information shows it has a "High" ECC level) and you **may** spend even more time on the challenge.
+Well-versed students may use tools to apply the Reed-Solomon error recovering techniques to fully reconstruct the QR code. One written in Python may be found here: https://github.com/tomerfiliba/reedsolomon The current challenge is already tedious, using the tool is unnecessary as you do not need to recover 100% of the QR code (since the format information shows it has a "High" ECC level) and you **may** spend even more time on the challenge since you'll have to understand the bit order of a QR code.
 
 >![Fully Reconstructed QR](solution/mooncake_solution_complete.png)
 
