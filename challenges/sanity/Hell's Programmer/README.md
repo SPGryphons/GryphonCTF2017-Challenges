@@ -1,4 +1,4 @@
-# Hell's Programmer
+# Name of challenge
 Test Googling skills.
 
 <i>Creator - @Platy</i>
