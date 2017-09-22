@@ -1,15 +1,7 @@
 # FruitTree
 ## Question Text
 
-Life is but a memory
-
-Happened long ago
-
-Theatre full of sadness
-
-For a long forgotten show
-
-(flag is in GCTF format with all caps)
+Hi! Ive created a new language! translate it  and get the flag!!
 
 Created by paux
 
@@ -28,7 +20,7 @@ image for "decrypt"
 
 OR 
 
-5.  another way would be to analyse the percentage of symbols appearing and corresponding it to the
+5.  another way would be to analyse the percentage of symbols appearing and corresponding it to the alphabet
 6.  get flag! 
 
 ## Recommended Reads
