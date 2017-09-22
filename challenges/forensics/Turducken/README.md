@@ -12,7 +12,6 @@ Distribute all the contents inside `distrib` folder to the users
 
 ## Hints
 Check out the recommended reads
-Names are important! They have meanings
 Analyse the task more
 Good luck~
 
