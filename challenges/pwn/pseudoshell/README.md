@@ -1,4 +1,4 @@
-# ShellMethod
+# PseudoShell
 The third of the pwn binaries, this one is a overflow challenge taken into the opposite end, with the focus on domino effects.
 
 ## Challenge Text
