@@ -11,7 +11,7 @@ USER shellmethod
 ADD shellmethod.conf /etc/xinetd.conf
 
 # Add challenge binary
-ADD shellmethod-server /home/shellmethod/shellmethod
+ADD shellmethod-server-* /home/shellmethod/shellmethod
 
 # Add flag to home
 ADD flag.txt /home/shellmethod/flag.txt

@@ -11,4 +11,4 @@ USER tsundeflow
 ADD tsundeflow.conf /etc/xinetd.conf
 
 # Add challenge binary
-ADD tsundeflow-server /home/tsundeflow/tsundeflow
+ADD tsundeflow-server-* /home/tsundeflow/tsundeflow

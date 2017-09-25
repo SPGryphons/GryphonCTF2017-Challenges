@@ -4,6 +4,7 @@
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Imports
+import os
 import sys
 import random
 from base64 import *
@@ -24,3 +25,6 @@ for i in range(DIFFICULTY):
 # Save flag to file
 with open("../distrib/flag.txt", "w") as file:
     file.write(flag.decode())
+
+# Update hash
+os.system("mv ../distrib/flag.txt ../distrib/flag-`md5sum ../distrib/flag.txt | cut -b-32`.txt")

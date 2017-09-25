@@ -5,6 +5,7 @@
 ##
 from PIL import Image
 from itertools import cycle
+import os
 import sys
 
 # Set variables
@@ -39,3 +40,5 @@ for y in range(height):
 
 # Save image
 im.save("../distrib/flag.png", "PNG")
+os.system("mv ../distrib/flag.png ../distrib/flag-`md5sum ../distrib/flag.png | cut -b-32`.png")
+

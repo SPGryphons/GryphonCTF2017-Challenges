@@ -11,7 +11,7 @@ USER pseudoshell
 ADD pseudoshell.conf /etc/xinetd.conf
 
 # Add challenge binary
-ADD pseudoshell-server /home/pseudoshell/pseudoshell
+ADD pseudoshell-server-* /home/pseudoshell/pseudoshell
 
 # Add flag to home
 ADD flag.txt /home/pseudoshell/flag.txt

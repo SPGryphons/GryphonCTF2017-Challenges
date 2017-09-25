@@ -4,6 +4,7 @@
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Imports
+import os
 import sys
 from base64 import b16encode
 from Crypto.PublicKey import RSA
@@ -21,3 +22,6 @@ c = pow(m, key.e, key.n)
 # Output our now 'safe' flag!
 with open("../distrib/flag.txt", "w") as file:
     file.write("n = {0}\ne = {1}\nc = {2}\n".format(key.n, key.e, c))
+
+# Update hash
+os.system("mv ../distrib/flag.txt ../distrib/flag-`md5sum ../distrib/flag.txt | cut -b-32`.txt")
