@@ -21,4 +21,4 @@ _Creator - @LFlare_
 3. `GCTF{r3v3r51n6_b175_4r3_c00l}`
 4. `GCTF{b17_c0un71n6_w17h_b17_7w1ddl1n6}`
 5. `GCTF{1nv3r53_r0075_m4d3_1n3ff1c13n7}`
-6. `GCTF{1rc_15_p0pul4r_4m0n6_c7f_pl4y3r5_700`
+6. `GCTF{1rc_15_p0pul4r_4m0n6_c7f_pl4y3r5_700}`
