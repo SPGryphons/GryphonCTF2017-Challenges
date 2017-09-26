@@ -6,16 +6,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Check if built for redacted distrib
-#ifdef REDACTED
-    #define FLAG "GCTF{TSUNDEFLOW_FLAG}"
-#else
-    #define FLAG "GCTF{51mpl3_buff3r_0v3rfl0w_f0r_75und3r35}"
-#endif
-
 int win() {
     puts("B-baka! It's not like I like you or anything!");
-    puts(FLAG);
+    system("/bin/sh");
 }
 
 int main() {

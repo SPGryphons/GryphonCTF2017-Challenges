@@ -12,3 +12,6 @@ ADD tsundeflow.conf /etc/xinetd.conf
 
 # Add challenge binary
 ADD tsundeflow-server-* /home/tsundeflow/tsundeflow
+
+# Add flag to home
+ADD flag.txt /home/tsundeflow/flag.txt

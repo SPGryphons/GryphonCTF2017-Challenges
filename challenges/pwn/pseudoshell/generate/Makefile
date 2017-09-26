@@ -11,5 +11,5 @@ all:
 	mv ../distrib/${NAME}.c ../distrib/${NAME}-`md5sum ../distrib/${NAME}.c | cut -b-32`.c
 
 clean:
-	rm ../service/${NAME}*
+	rm ../service/${NAME}-*
 	rm ../distrib/${NAME}*

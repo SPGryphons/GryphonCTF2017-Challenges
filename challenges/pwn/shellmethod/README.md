@@ -14,3 +14,6 @@ _Creator - @LFlare_
 1. Build both binaries with `cd generate && make`.
 2. Build server docker image with `cd service && ./build.sh`.
 3. Run server docker image with `cd service && ./run.sh`.
+
+## Flag
+`GCTF{5h3llc0d35_4r3_ju57_4553mbly}`
