@@ -8,3 +8,6 @@ Bob - "Fine! I'll make it brighter!"
 
 Creator: Amos (LFlare) Ng
 ```
+
+## Flag
+`GCTF{n0w_7h3y_4r3_ju57_2_h4w7_2_br16h7_4_m3}`

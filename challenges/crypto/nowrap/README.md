@@ -7,3 +7,6 @@ My white candy wrapper had this weird numbers encoded in it's molecular structur
 
 Creator: Amos (LFlare) Ng
 ```
+
+## Flag
+`GCTF{7h3_m355463_15_h1l4r10u5ly_5h0r7}`

@@ -5,9 +5,9 @@ The first of the pwn binaries, this one is the classical buffer overflow problem
 ```
 This one is a handful.
 
-Connect @ 188.166.248.233:9991
+Connect: `139.59.123.16 17331`
 
-Created By: Amos (LFlare) Ng
+_Creator - @LFlare_
 ```
 
 ## Setup

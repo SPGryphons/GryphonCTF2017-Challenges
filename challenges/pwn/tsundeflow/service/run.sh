@@ -4,7 +4,7 @@
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Get port number to bind to
-PORT=${PORT:-"9991"}
+PORT=${PORT:-"17331"}
 
 # Run container
 docker rm -f tsundeflow

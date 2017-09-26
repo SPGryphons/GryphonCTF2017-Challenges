@@ -11,3 +11,6 @@ Alice - "This seems weird."
 
 Creator: Amos (LFlare) Ng
 ```
+
+## Flag
+`GCTF{7h15_d4rkn355_15_n07_45_3xp3c73d_3h}`

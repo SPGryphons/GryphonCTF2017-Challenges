@@ -9,3 +9,6 @@ My bassist wrote this down on a piece of paper before he died of lack of Vitamin
 
 Created By: Amos (LFlare) Ng
 ```
+
+## Flag
+`GCTF{b4535_4r3_c0nfu51n6_m4n}`

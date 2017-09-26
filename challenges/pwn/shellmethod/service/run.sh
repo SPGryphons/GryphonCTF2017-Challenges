@@ -4,7 +4,7 @@
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Get port number to bind to
-PORT=${PORT:-"9992"}
+PORT=${PORT:-"17332"}
 
 # Run container
 docker rm -f shellmethod
