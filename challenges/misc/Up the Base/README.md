@@ -46,4 +46,4 @@ print(base65536.decode(value).decode())
 https://github.com/qntm/base65536
 
 ## Recommended Reads
-[Will YouTube Ever Run Out Of Video IDs?](https://www.youtube.com/watch?v=gocwRvLhDf8)
+None.
