@@ -44,7 +44,7 @@ def getFlag(con):
 			output = 'sh: 1: {}: not found'.format(value)
 		con.sendall('{}\nHope you enjoy!\n{}\n'.format(final,output))
 	else:
-		output('Sorry, but we do not serve these here. Maybe next time!')
+		con.sendall('Sorry, but we do not serve these here. Maybe next time!\n')
 
 def start(whut,con):
 	try:
