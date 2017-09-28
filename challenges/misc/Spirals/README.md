@@ -2,7 +2,10 @@
 
 ## Question Text
 
-I just read junji ito's uzumaki and i am very inspired, so i decided to implement a simple function!
+I just read junji ito's uzumaki and i am very inspired, so i decided to implement a simple obfuscation function!
+heres the link to the comic:
+
+<a href="https://www.barcodesinc.com/generator/"><img src="https://www.barcodesinc.com/generator/image.php?code=https://en.wikipedia.org/wiki/Uzumaki&style=197&type=C128B&width=531&height=50&xres=1&font=3" alt="the barcode printer: free barcode generator" border="0"></a>
 
 Good luck!
 
