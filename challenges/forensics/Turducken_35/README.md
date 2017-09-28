@@ -11,15 +11,16 @@ Created by ESLunarPhoenix
 Distribute all the contents inside `distrib` folder to the users
 
 ## Hints
-Check out the recommended reads
-The Pin is in the Title
-Analyse the task more
-Good luck~
+* Check out the recommended reads
+* The Pin is in the Title
+* Analyse the task more
+* Good luck~
 
 ## Solution
-Download OpenStego v0.6.1
-Download rSteg
-The flag is embeded in an image in an image in an image
+* Download OpenStego v0.6.1
+* Download rSteg
+* The flag is embeded in an image in an image in an image
+
 Use the tools and passwords in the following order to get the flag
 1. OpenStego:turkey
 2. OpenStego:duck
