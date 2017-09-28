@@ -4,9 +4,6 @@ MAINTAINER Amos (LFlare) Ng <amosng1@gmail.com>
 # Create user
 RUN adduser --disabled-password --gecos "" pseudoshell
 
-# Switch to user
-USER pseudoshell
-
 # Add xinetd configuration
 ADD pseudoshell.conf /etc/xinetd.conf
 
@@ -15,3 +12,10 @@ ADD pseudoshell-server-* /home/pseudoshell/pseudoshell
 
 # Add flag to home
 ADD flag.txt /home/pseudoshell/flag.txt
+
+# Double-enforce permissions
+RUN chown -R root:root /home/pseudoshell && \
+    chown root:pseudoshell /home/pseudoshell/pseudoshell && \
+    chmod 2755 /home/pseudoshell/pseudoshell && \
+    chown root:pseudoshell /home/pseudoshell/flag.txt && \
+    chmod 0440 /home/pseudoshell/flag.txt
