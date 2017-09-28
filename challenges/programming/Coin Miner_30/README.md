@@ -7,7 +7,7 @@ Create program to hash stuff
 Programming
 
 ## Question
->I'm running low on cash right now. Luckily, I found this virtual currency that uses inputs that when hashed, produce a hexdigest in which the first 2 characters are '00'. I just need 20 of them. Thanks.
+>I'm running low on cash right now. Luckily, I found this virtual currency that uses inputs that when hashed, produces a hexdigest in which the first 2 characters are '00'. I just need 20 of them. Thanks!
 >
 >Connect via `nc <ip address> 17451`
 

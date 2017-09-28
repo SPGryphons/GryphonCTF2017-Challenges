@@ -7,7 +7,7 @@ Changing HTML elements
 Sanity
 
 ## Question
->Here comes the anime awards! However, other mainstream anime are winning! As a fangirl of Yuri On Ice, I'm getting triggered. Hack the awards and make the points of Yuri On Ice 1000000! I'll give you the flag if you manage to.
+>OH MAH GAWD THE ANIMU AWARDS R HERE! OBVIOUSLY, YURI ON ICE IS GOING TO WIN, BUT SOME OTHER CRAP ANIME THAT I HAVEN'T WATCHED B4 R WINNING!!!11!!!1! MAKE THE YURI ON ICE SCORE 1000000!!! I GIV U FLAG IF U DO IT!
 >
 >Connect via http://localhost:17454
 

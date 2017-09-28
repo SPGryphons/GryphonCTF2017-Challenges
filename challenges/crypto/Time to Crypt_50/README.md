@@ -7,7 +7,7 @@ Understanding that One-Time-Pad should only be used one time.
 Crypto
 
 ## Question
->Alice has just learnt about encryption and OTPs in Applied Cryptography. Now she wants to put her knowledge to the test. She successfully implemented OTPs in her Java code, but the lecturer said that it is insecure.
+>Alice has just learnt about encryption and OTPs in Applied Cryptography. Now she wants to put her knowledge to the test. She successfully implemented OTPs into her Java code, but the lecturer said that it is insecure.
 
 ### Hint
 She did not fully understand that 'OT' in 'OTP' stands for 'One-Time'

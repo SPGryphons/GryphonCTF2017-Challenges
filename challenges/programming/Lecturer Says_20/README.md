@@ -7,7 +7,7 @@ Basic programming knowledge required
 Programming
 
 ## Question
->Exam is coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
+>Exams are coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
 >
 >Connect via `nc <ip address> 17457`
 
