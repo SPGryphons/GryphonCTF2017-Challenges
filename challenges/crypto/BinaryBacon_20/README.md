@@ -23,3 +23,6 @@ book cipher file
 4.  convert the binary to ascii and you will get the flag
 
 ## Recommended Reads
+
+## Flag
+`GCTF{b1n4ryb4c0n_ciph3r_15_z3_b3st_ciph3r_4_u}`

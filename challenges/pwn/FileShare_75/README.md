@@ -23,3 +23,5 @@ port is currently set to 9234
 
 ## Recommended Reads
 
+## Flag
+`GCTF{in53cur3_fi13_tr4n5f3r}`

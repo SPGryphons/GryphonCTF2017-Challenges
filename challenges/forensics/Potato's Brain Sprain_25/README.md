@@ -1,6 +1,6 @@
 # Potato's Brain Sprain
 
-<i>Creators - @Platy &amp; @pauxy</i>
+<i>Creators - @Platy &amp; @paux</i>
 
 ## Category
 Forensics

@@ -23,3 +23,5 @@ file with code
 
 ## Recommended Reads
 
+## Flag
+`GCTF{junj1_17o_5p1r415}`

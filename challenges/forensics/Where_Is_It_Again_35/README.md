@@ -2,8 +2,6 @@
 
 ## Question Text
 
-
-
 More suspicious network activity :(, they seem to be sending alot of data please help!
 
 Created by paux
@@ -32,3 +30,5 @@ pcap file with network traffic
 
 ## Recommended Reads
 
+## Flag
+`GCTF{D0nT_L00K}`

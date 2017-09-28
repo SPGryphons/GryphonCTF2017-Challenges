@@ -36,3 +36,6 @@ OR
 
 ## Recommended Reads
 
+
+## Flag
+`GCTF{4m0ng57_7h3_b175}`

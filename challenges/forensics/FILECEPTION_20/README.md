@@ -20,3 +20,5 @@ jfif file with hidden zip file
 
 ## Recommended Reads
 
+## Flag
+`GCTF{4_fi13_1n_4_f1l3_1n_4_f11e}`

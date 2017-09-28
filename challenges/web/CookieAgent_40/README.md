@@ -55,3 +55,6 @@ Heres the flag "GCTF{w3_ar3_7h3_c00k13_ag3nc9}"
 
 
 ## Recommended Reads
+
+## Flag
+`GCTF{w3_ar3_7h3_c00k13_ag3nc9}`

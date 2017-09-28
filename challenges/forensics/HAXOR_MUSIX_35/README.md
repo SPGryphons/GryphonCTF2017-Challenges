@@ -7,7 +7,7 @@ Created by paux
 
 ## Setup Guide
 1. put file on server
-2. hide file `service.txt` on server
+2. hide file `service.txt` on server (please tell me the link to get the txt file as i need to use rebrand.ly to link to the site)
 ## Distribution
 wav file
 - H4X0R_MUZIK.wav
@@ -20,4 +20,5 @@ wav file
 4.	decrypt it and get flag!
 ## Recommended Reads
 
-
+## Flag
+`GCTF{much_mu51x_much_h4x0r}`

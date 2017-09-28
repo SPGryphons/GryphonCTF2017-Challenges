@@ -22,3 +22,5 @@ image for "decrypt"
 ## Recommended Reads
 - personally recommend this for quick checking of images
 <br>https://29a.ch/photo-forensics/
+## Flag
+`GCTF{f0r3n51c5_15_e45y}`
