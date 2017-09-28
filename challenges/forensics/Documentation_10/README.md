@@ -1,7 +1,7 @@
 # Documentation
 
 ## Question Text
-Microsoft Word is a word processer developed by Microsoft.
+Microsoft Word is a word processer developed by Microsoft...
 
 *Creator - Chuan Kai (@exetr)*
 
