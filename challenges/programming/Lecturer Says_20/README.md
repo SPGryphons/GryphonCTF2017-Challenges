@@ -9,7 +9,7 @@ Programming
 ## Question
 >Exams are coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
 >
->Connect via `nc <ip address> 17457`
+>Connect via `nc <ip address> 17451`
 
 ### Hint
 None.

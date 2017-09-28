@@ -5,7 +5,7 @@ import sys
 GREEN = '\033[92m'
 
 ADDRESS = 'localhost'
-PORT = 17457
+PORT = 17451
 
 TIME_TO_WAIT = 0.01
 

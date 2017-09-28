@@ -9,7 +9,7 @@ Programming
 ## Question
 >I'm running low on cash right now. Luckily, I found this virtual currency that uses inputs that when hashed, produces a hexdigest in which the first 2 characters are '00'. I just need 20 of them. Thanks!
 >
->Connect via `nc <ip address> 17451`
+>Connect via `nc <ip address> 17452`
 
 ### Hint
 You can use random character generator

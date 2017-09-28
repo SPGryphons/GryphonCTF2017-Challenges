@@ -9,7 +9,7 @@ Programming
 ## Question
 >NEEDZ HALPZ ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. ME WANTS $100. CAN HALP PLZ? THX M8!
 >
->Connect via `nc <ip address> 17455`
+>Connect via `nc <ip address> 17454`
 
 ### Hint
 PATH FINDIN ALGORITHM M8

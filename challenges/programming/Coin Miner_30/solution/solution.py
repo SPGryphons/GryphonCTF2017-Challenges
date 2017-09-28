@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ADDRESS = 'localhost'
-PORT = 17451
+PORT = 17452
 
 TIME_TO_WAIT = 0.05
 

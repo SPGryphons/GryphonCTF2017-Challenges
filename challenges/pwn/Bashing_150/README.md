@@ -9,7 +9,7 @@ Pwn
 ## Question
 >You are not yourself when you are hungry. Have a CTF challenge and stop <i>bashing</i> people up.
 >
->Connect via `nc <ip address> 17450`
+>Connect via `nc <ip address> 17345`
 
 ### Hint
 `I hate needles`
