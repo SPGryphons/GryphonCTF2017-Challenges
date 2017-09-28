@@ -16,7 +16,7 @@ text file describing translation.txt
 - readme.txt
 < ip > : < port >
 
-port as of now is `17417`
+port as of now is `17453`
 ## Solution
 1.	`nc 127.0.0.1 17417` will show that the program is running, however it has a timeout function so it would be almost impossible to complete the challenge by typing
 2.	write a socket client program to interact with lonelyplanet
