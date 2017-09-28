@@ -18,3 +18,5 @@ zip file containing all the files
 
 ## Recommended Reads
 
+## Flag
+`GCTF{wh4ts_1n_th3_f1l355}`
