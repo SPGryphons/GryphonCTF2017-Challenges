@@ -13,6 +13,6 @@ Upload the jpg file on server
 
 ### Solution
 
-GCTF{gXq1284}
+GCTF{Y0u_F0Und_7h3F14g} 
 
 Use a hex editor to open the jpg. 
