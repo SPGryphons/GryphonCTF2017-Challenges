@@ -13,6 +13,9 @@ ADD tsundeflow-server-* /home/tsundeflow/tsundeflow
 # Add flag to home
 ADD flag.txt /home/tsundeflow/flag.txt
 
+# Change home
+ENV HOME /home/tsundeflow
+
 # Double-enforce permissions
 RUN chown -R root:root /home/tsundeflow && \
     chown root:tsundeflow /home/tsundeflow/tsundeflow && \

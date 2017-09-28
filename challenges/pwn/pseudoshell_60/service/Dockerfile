@@ -13,6 +13,9 @@ ADD pseudoshell-server-* /home/pseudoshell/pseudoshell
 # Add flag to home
 ADD flag.txt /home/pseudoshell/flag.txt
 
+# Change home
+ENV HOME /home/pseudoshell
+
 # Double-enforce permissions
 RUN chown -R root:root /home/pseudoshell && \
     chown root:pseudoshell /home/pseudoshell/pseudoshell && \

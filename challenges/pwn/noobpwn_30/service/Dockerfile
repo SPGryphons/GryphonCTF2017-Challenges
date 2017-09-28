@@ -13,6 +13,9 @@ ADD noobpwn-server-* /home/noobpwn/noobpwn
 # Add flag to home
 ADD flag.txt /home/noobpwn/flag.txt
 
+# Change home
+ENV HOME /home/noobpwn
+
 # Double-enforce permissions
 RUN chown -R root:root /home/noobpwn && \
     chown root:noobpwn /home/noobpwn/noobpwn && \

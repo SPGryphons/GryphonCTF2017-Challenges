@@ -10,6 +10,9 @@ ADD genesis.conf /etc/xinetd.conf
 # Add challenge binary
 ADD genesis-server-* /home/genesis/genesis
 
+# Change home
+ENV HOME /home/genesis
+
 # Double-enforce permissions
 RUN chown -R root:root /home/genesis && \
     chown root:genesis /home/genesis/genesis && \

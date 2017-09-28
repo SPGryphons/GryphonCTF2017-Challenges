@@ -13,6 +13,9 @@ ADD shellmethod-server-* /home/shellmethod/shellmethod
 # Add flag to home
 ADD flag.txt /home/shellmethod/flag.txt
 
+# Change home
+ENV HOME /home/shellmethod
+
 # Double-enforce permissions
 RUN chown -R root:root /home/shellmethod && \
     chown root:shellmethod /home/shellmethod/shellmethod && \
