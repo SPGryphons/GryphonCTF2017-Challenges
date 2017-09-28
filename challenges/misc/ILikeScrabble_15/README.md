@@ -18,3 +18,5 @@ text file
 
 ## Recommended Reads
 
+## Flag
+`GCTF{e5ot3r1c_ftw}`
