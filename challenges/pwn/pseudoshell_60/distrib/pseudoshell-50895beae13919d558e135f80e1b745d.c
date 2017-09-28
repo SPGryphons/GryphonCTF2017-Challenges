@@ -40,7 +40,7 @@ int main() {
     int access = login();
 
     // Check privileges
-    if (access >= 0xff || access <= 0) {
+    if (access >= 0xff || access < 0) {
         puts("INVALID ACCOUNT ACCESS LEVEL!");
     } else if (access <= 0x20) {
         puts("SUCCESSFULLY LOGGED IN AS ADMIN!");
