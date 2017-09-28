@@ -17,6 +17,4 @@ text file
 2.  testing on participants knowledge / flexability of esoteric languages
 
 ## Recommended Reads
-https://tio.run/#beatnik
 
-http://search.cpan.org/dist/Acme-Beatnik/Beatnik.pm
