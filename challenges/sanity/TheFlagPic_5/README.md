@@ -24,7 +24,7 @@ Upload the jpg file on server
 
 Use a text editor to open the jpg.
 
-####Flag
+###Flag
 
 GCTF{Y0u_F0Und_7h3F14g} 
 
