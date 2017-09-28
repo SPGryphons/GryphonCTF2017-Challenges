@@ -5,7 +5,7 @@ I want to make my text file very very small! So, I did what any sane person woul
 
 ## Setup Guide
 1. Convert flag.txt to binary
-2. Convert binary.txt to base64.txt
+2. Convert binary.txt to base64.txt`
 3. `cp base64.txt level10`
 4. `genisoimage -o level9 level10`
 5. `lzop -k level9 -o level8`
@@ -37,4 +37,4 @@ I want to make my text file very very small! So, I did what any sane person woul
 13. Decode from base64 and then from binary to get the flag
 
 ### Flag
-`GCTF{i_th1nk_i_m4y_h4v3_f0rg077en_th15}`
+`GCTF{m4ny_m4ny_l4y3r5_0f_c0mpr3ssi0n}`
