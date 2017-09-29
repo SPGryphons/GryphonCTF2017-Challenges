@@ -10,7 +10,7 @@ Created by paux
 1. run startup.sh
 
 ## Distribution
-< ip > : < port >
+< ip >:< port >/CookieAgent
 
 as of now port is `17561`
 ## Solution
