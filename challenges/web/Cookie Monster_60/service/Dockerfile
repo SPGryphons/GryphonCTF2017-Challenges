@@ -14,6 +14,7 @@ COPY ./image.js /tmp/.
 COPY ./run.py /tmp/.
 COPY ./setup.sh /tmp/.
 RUN chmod 755 /tmp/phantomjs
+RUN chmod 755 /tmp/image.js
 EXPOSE 80 44445
 WORKDIR /tmp
 ENTRYPOINT ["bash","setup.sh"]

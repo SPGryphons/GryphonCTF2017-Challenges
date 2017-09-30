@@ -20,5 +20,7 @@ COPY ./src /var/www/localhost/htdocs/
 # Move setup script
 COPY ./setup.sh /
 
+RUN chmod 755 /setup.sh
+
 # Set entrypoint
 CMD /setup.sh
