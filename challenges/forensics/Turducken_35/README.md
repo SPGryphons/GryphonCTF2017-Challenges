@@ -3,7 +3,15 @@
 ## Question Text
 
 We are having Turducken for dinner, but I only want chicken, can you get it for me?
-Multiple tools have been used to prepare the dish though, You need to have java installed to attempt the challenge
+Multiple tools have been used to prepare this dish though, you need to have java installed to attempt the challenge
+
+Here are some recommended reads for you:
+https://www.slideshare.net/hussainsavani/image-steganography
+http://resources.infosecinstitute.com/steganography-and-tools-to-perform-steganography/
+http://www.topbestalternatives.com/best-steganography-software/
+https://www.geekdashboard.com/best-steganography-tools/
+
+Enjoy~
 
 Created by ESLunarPhoenix
 
