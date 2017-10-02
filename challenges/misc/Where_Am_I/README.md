@@ -2,7 +2,7 @@
 
 ## Question Text
 
-This strange thing seems to be hiding something...
+I was out at sea when i found this... it seems to be hiding something...
 
 Created by paux
 
