@@ -7,10 +7,9 @@ I was out at sea when i found this... it seems to be hiding something...
 Created by paux
 
 ## Setup Guide
-1. hide digisparks
+1. upload code to digisparks
 
 ## Distribution
-1. hide digisparks
 
 ## Solution
 1.	when you plug in the digispark, it will open up a notepad and write out text
