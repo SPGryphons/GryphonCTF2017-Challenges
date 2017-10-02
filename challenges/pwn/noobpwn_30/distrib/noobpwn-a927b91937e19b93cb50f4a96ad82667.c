@@ -11,6 +11,9 @@ int main(int argc){
     char buf[32] = {0x00};
     int key = 0x00;
 
+    // Disable output buffering
+    setbuf(stdout, NULL);
+
     // Get key?
     printf("Key? ");
     scanf("%d", &key);
