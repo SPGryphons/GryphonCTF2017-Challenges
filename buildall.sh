@@ -14,7 +14,7 @@ for script in challenges/**/[br]*.sh; do
     parent=`dirname "${script}"`
     filename=`basename "${script}"`
     cd "${parent}"
-    ./"${filename}"
+    bash ./"${filename}"
     cd -
 done
 
