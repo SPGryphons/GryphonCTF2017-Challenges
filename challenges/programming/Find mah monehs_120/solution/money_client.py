@@ -8,7 +8,7 @@ TIME_TO_WAIT = 0.2 # Time to wait before each round
 BUFFER_SIZE = 512 ** 2 # Amount of bytes socket listens
 
 PORT = 17454
-ADDRESS = 'prog.chal.gryphonctf.com'
+ADDRESS = 'localhost'
 
 # Formats input data into a dictionary
 def gridFormat(buf):
