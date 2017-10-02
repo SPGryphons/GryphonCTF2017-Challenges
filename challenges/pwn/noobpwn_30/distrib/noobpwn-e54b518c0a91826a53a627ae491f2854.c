@@ -6,23 +6,22 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char* argv[], char* envp[]){
+int main(int argc){
     // Create buffer
-    char buf[32];
+    char buf[32] = {0x00};
+    int key = 0x00;
 
-    // Check argument length
-    if (argc < 2) {
-        printf("Not enough arguments!\n");
-        return 0;
-    }
+    // Get key?
+    printf("Key? ");
+    scanf("%d", &key);
 
     // Create file descriptor
-    int fd = atoi(argv[1]) - 0x1234;
+    int fd = key - 0x31337;
     int len = read(fd, buf, 32);
 
     // Check if we have a winner
     if (!strcmp("GIMMEDAFLAG\n", buf)) {
-        system("/bin/cat flag");
+        system("/bin/cat flag.txt");
         exit(0);
     }
 
