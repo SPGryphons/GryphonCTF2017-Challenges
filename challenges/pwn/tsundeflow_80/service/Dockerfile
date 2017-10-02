@@ -7,6 +7,9 @@ RUN adduser --disabled-password --gecos "" tsundeflow
 # Add xinetd configuration
 ADD tsundeflow.conf /etc/xinetd.conf
 
+# Add entrypoint
+ADD entrypoint.sh /bin/entrypoint
+
 # Add challenge binary
 ADD tsundeflow-server-* /home/tsundeflow/tsundeflow
 
