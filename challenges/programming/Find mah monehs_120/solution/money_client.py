@@ -4,7 +4,7 @@ import socket,re
 import time
 
 PRINT_MAZE = True # Prints out the maze from the server
-TIME_TO_WAIT = 0.05 # Time to wait before each round
+TIME_TO_WAIT = 0.2 # Time to wait before each round
 BUFFER_SIZE = 512 ** 2 # Amount of bytes socket listens
 
 PORT = 17454

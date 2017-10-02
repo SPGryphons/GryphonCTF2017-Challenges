@@ -7,6 +7,9 @@ RUN adduser --disabled-password --gecos "" shellmethod
 # Add xinetd configuration
 ADD shellmethod.conf /etc/xinetd.conf
 
+# Add entrypoint
+ADD entrypoint.sh /bin/entrypoint
+
 # Add challenge binary
 ADD shellmethod-server-* /home/shellmethod/shellmethod
 

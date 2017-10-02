@@ -7,6 +7,9 @@ RUN adduser --disabled-password --gecos "" pseudoshell
 # Add xinetd configuration
 ADD pseudoshell.conf /etc/xinetd.conf
 
+# Add entrypoint
+ADD entrypoint.sh /bin/entrypoint
+
 # Add challenge binary
 ADD pseudoshell-server-* /home/pseudoshell/pseudoshell
 

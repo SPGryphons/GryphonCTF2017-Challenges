@@ -7,6 +7,9 @@ RUN adduser --disabled-password --gecos "" noobpwn
 # Add xinetd configuration
 ADD noobpwn.conf /etc/xinetd.conf
 
+# Add entrypoint
+ADD entrypoint.sh /bin/entrypoint
+
 # Add challenge binary
 ADD noobpwn-server-* /home/noobpwn/noobpwn
 
