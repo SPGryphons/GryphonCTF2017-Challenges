@@ -6,9 +6,9 @@ It is said that steganography was first discovered within the intricate designs 
 
 Mid-Autumn arrives yet again, and you can't help to notice a sleek, dark mooncake box lying on the dining table. The design puzzles you. Is that a QR code? Are those binary digits?? Are they trying to promote their mooncake brand, or am I just missing something?
 
-Created by Optixal (Shawn Pang)
+Creator @Optixal
 
->![Mooncake Box](distrib/mooncake_box_design.png)
+>![Mooncake Box](distrib/mooncake_box_design_522cb125672e59e884a3d353efb8b6f6.png)
 
 ## Distribution
 * "mooncake_box_design.png"
@@ -38,6 +38,9 @@ Created by Optixal (Shawn Pang)
 Well-versed students may use tools to apply the Reed-Solomon error recovering techniques to fully reconstruct the QR code. One written in Python may be found here: https://github.com/tomerfiliba/reedsolomon The current challenge is already tedious, using the tool is unnecessary as you do not need to recover 100% of the QR code (since the format information shows it has a "High" ECC level) and you **may** spend even more time on the challenge since you'll have to understand the bit order of a QR code.
 
 >![Fully Reconstructed QR](solution/mooncake_solution_complete.png)
+
+### Flag
+`GCTF{54L73d_3gG_Y0LkZ}`
 
 ## Recommended Reads
 * http://www.thonky.com/qr-code-tutorial/format-version-information
