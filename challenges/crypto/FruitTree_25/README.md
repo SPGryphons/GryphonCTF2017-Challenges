@@ -25,5 +25,4 @@ OR
 5.  another way would be to analyse the percentage of symbols appearing and corresponding it to the alphabet
 6.  get flag! 
 
-## Recommended Reads
-- https://en.wikipedia.org/wiki/Substitution_cipher
+
