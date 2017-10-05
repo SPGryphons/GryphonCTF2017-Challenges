@@ -174,7 +174,6 @@ int level_five() {
     while (getchar() != '\n');
 
     for (int i = 0; i < 5; i++) {
-        printf("%d %d\n", (int)round(fov(attempt[i])), challenge[i]);
         if ((int)round(fov(attempt[i])) != challenge[i]) {
             return 0;
         }
@@ -227,6 +226,7 @@ int main() {
 
                         if (bonus()) {
                             puts(FLAG_BONUS);
+                            return 1;
                         }
                     }
                 }
