@@ -20,7 +20,7 @@
     #define FLAG_ONE "GCTF{w3lc0m3_70_r3v3r53_3n61n33r1n6}"
     #define FLAG_TWO "GCTF{ch4r_p01n73r5_!=_ch4r_4rr4y}"
     #define FLAG_THREE "GCTF{r3v3r51n6_b175_4r3_c00l}"
-    #define FLAG_FOUR "GCTF{b17_c0un71n6_w17h_b17_7w1ddl1n6}"
+    #define FLAG_FOUR "GCTF{b17_7w1ddl1n6_f1x3d_f0r_r34lz_n0w}"
     #define FLAG_FIVE "GCTF{1nv3r53_r0075_m4d3_1n3ff1c13n7}"
     #define FLAG_BONUS "GCTF{1rc_15_p0pul4r_4m0n6_c7f_pl4y3r5_700}"
 #endif
