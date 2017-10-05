@@ -117,10 +117,12 @@ int level_four() {
     int attempt[12];
 
     // Ensure unusability of GDB
+    #ifdef REDACTED
     if (ptrace(PTRACE_TRACEME, 0, NULL, 0) == -1) {
         printf("GDB IS NOT ALLOWED!\n");
         return 1;
     }
+    #endif
 
     // Print challenge
     printf(banner, 4);
