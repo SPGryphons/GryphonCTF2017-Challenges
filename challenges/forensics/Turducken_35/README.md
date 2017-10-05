@@ -25,7 +25,7 @@ Distribute all the contents inside `distrib` folder to the users
 * Good luck~
 
 ## Solution
-* Download OpenStego v0.6.1
+* Download OpenStego v0.7.1
 * Download rSteg
 * The flag is embeded in an image in an image in an image
 
