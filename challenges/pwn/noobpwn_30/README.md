@@ -3,7 +3,7 @@ The fourth of the pwn binaries, this one is a much easier pwnable binary
 
 ## Challenge Text
 ```
-Getting tired of pwn? How about a easier one?
+Getting tired of pwn? How about an easier one?
 
 Connect: `139.59.123.16 17335`
 
