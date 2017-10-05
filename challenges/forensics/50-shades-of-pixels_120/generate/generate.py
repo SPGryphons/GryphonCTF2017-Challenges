@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 ##
-# Created for the 50 Shades of Pixels challenge
+# Created for GryphonCTF 2017_50 Shades of Pixels
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 from PIL import Image

@@ -1,10 +1,10 @@
 #! /bin/bash
 ##
-# Created for GryphonCTF 2017 Tsundeflow
+# Created for GryphonCTF 2017_NoobPwn
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Get port number to bind to
-PORT=${PORT:-"17335"}
+PORT=${PORT:-"17346"}
 
 # Run container
 docker rm -f noobpwn

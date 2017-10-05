@@ -1,10 +1,10 @@
 #! /bin/bash
 ##
-# Created for GryphonCTF 2017 Tsundeflow
+# Created for GryphonCTF 2017_ShellMethod
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Get port number to bind to
-PORT=${PORT:-"17332"}
+PORT=${PORT:-"17344"}
 
 # Run container
 docker rm -f shellmethod

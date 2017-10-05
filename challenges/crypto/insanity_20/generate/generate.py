@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 ##
-# Created for the Insanity challenge
+# Created for GryphonCTF 2017_Insanity
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Imports

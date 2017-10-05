@@ -5,7 +5,7 @@ The third of the pwn binaries, this one is a overflow challenge taken into the o
 ```
 I managed to hook on to a shady agency's server, can you help me secure it?
 
-Connect: `139.59.123.16 17333`
+Connect: `139.59.123.16 17341`
 
 _Creator - @LFlare_
 ```

@@ -1,6 +1,6 @@
 #! /bin/bash
 ##
-# Created for GryphonCTF 2017 Tsundeflow
+# Created for GryphonCTF 2017_NoobPwn
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Script misc

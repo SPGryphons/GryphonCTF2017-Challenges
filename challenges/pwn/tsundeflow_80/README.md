@@ -5,7 +5,7 @@ The first of the pwn binaries, this one is the classical buffer overflow problem
 ```
 This one is a handful.
 
-Connect: `139.59.123.16 17331`
+Connect: `139.59.123.16 17343`
 
 _Creator - @LFlare_
 ```

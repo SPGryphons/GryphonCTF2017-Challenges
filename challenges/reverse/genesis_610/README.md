@@ -5,7 +5,7 @@ As the first book in the Bible, Genesis is the mark of the beginning. This is a 
 ```
 In the beginning, there was nothing.
 
-Connect: `139.59.123.16 17334`
+Connect: `139.59.123.16 17234`
 
 _Creator - @LFlare_
 ```

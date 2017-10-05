@@ -5,7 +5,7 @@ The fourth of the pwn binaries, this one is a much easier pwnable binary
 ```
 Getting tired of pwn? How about an easier one?
 
-Connect: `139.59.123.16 17335`
+Connect: `139.59.123.16 17346`
 
 _Creator - @LFlare_
 ```

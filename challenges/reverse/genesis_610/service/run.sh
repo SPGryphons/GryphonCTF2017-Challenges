@@ -1,10 +1,10 @@
 #! /bin/bash
 ##
-# Created for GryphonCTF 2017 Genesis
+# Created for GryphonCTF 2017_Genesis
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Get port number to bind to
-PORT=${PORT:-"17334"}
+PORT=${PORT:-"17234"}
 
 # Run container
 docker rm -f genesis

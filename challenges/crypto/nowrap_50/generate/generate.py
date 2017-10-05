@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 ##
-# Created for the NoWrap challenge
+# Created for GryphonCTF 2017_NoWrap
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Imports

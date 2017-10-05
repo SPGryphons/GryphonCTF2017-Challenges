@@ -1,6 +1,6 @@
 #! /bin/bash
 ##
-# Created for GryphonCTF 2017 Genesis
+# Created for GryphonCTF 2017_Genesis
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Script misc

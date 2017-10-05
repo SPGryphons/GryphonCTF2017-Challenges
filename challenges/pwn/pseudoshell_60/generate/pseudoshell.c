@@ -1,5 +1,5 @@
 /**
- * Created for the GryphonCTF 2017 challenges
+ * Created for GryphonCTF 2017_PseudoShell
  * By Amos (LFlare) Ng <amosng1@gmail.com>
 **/
 #include <stdio.h>
