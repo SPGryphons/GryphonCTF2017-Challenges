@@ -1,7 +1,7 @@
 # ILikeScrabble
 
 ## Question Text
-Someone sent me this file earlier to day mentioning that this was a simple password check... the password is mentioned to be `;) :) :| :( ^_^ XD`
+Someone sent me this file earlier today mentioning that this was a simple password check... the password is mentioned to be `;) :) :| :( ^_^ XD`
 
 Created by paux
 
