@@ -120,7 +120,7 @@ int level_four() {
     #ifdef REDACTED
     if (ptrace(PTRACE_TRACEME, 0, NULL, 0) == -1) {
         printf("GDB IS NOT ALLOWED!\n");
-        return 1;
+        return 0;
     }
     #endif
 
