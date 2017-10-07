@@ -70,7 +70,6 @@ def generate(rounds, difficulty):
     # Return challenge
     return challenge
 
-
 def solve(challenge):
     # Initialize
     registers = [0] * REGISTERS
