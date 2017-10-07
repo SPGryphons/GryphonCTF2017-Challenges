@@ -25,21 +25,24 @@ def generate(rounds, difficulty):
     challenge = list()
 
     # For current round number, generate challenges squared
-    looping = False
     index = 0
     for y in range(rounds+1):
         for z in range(difficulty):
             # Get next symbol
             next_symbol = random.choice(symbols)
 
+            # Randomly convert to loop symbols
+            if random.randrange(100) < 10:
+                next_symbol = random.choice(loops)
+
             # If index out of bounds swap symbol
-            if index == 0 and next_symbol == symbols[1]:
-                next_symbol = symbols[0]
-            elif index == (REGISTERS-1) and next_symbol == symbols[0]:
-                next_symbol = symbols[1]
+            if index == 0 and next_symbol == "<":
+                next_symbol = ">"
+            elif index == (REGISTERS-1) and next_symbol == ">":
+                next_symbol = "<"
 
             # If closing non-existant loop
-            if (challenge.count("[") < challenge.count("]") and
+            if (challenge.count("[") <= challenge.count("]") and
                     next_symbol == "]"):
                 next_symbol = "["
 
@@ -54,11 +57,6 @@ def generate(rounds, difficulty):
 
             # Append to challenge
             challenge.append(next_symbol)
-
-        # Randomly append loop symbols
-        if random.choice([True, False]):
-            challenge.append(loops[0] if not looping else loops[1])
-            looping = not looping
 
     # If last symbol is [, append -
     if challenge[-1] == "[":
@@ -78,6 +76,7 @@ def solve(challenge):
     registers = [0] * REGISTERS
     pointer = 0
     index = 0
+    loops = 0
     recursions = []
 
     # Loop through challenges till end
@@ -95,6 +94,10 @@ def solve(challenge):
         elif symbol == "-":
             registers[pointer] -= 1
 
+        # Check pointer sanity
+        if pointer < 0 or pointer > REGISTERS:
+            raise Exception("Pointer out of bounds!")
+
         # Iterate index
         index += 1
 
@@ -106,24 +109,37 @@ def solve(challenge):
 
         # If loop operations
         if symbol == "[":
-            # Append index
-            recursions.append(index)
-            end_loop = len(challenge) - challenge[::-1].index("]")
-
-            # If value at pointer is 0, skip to end
+            # If register at pointer == 0
             if registers[pointer] == 0:
-                index = end_loop
+                # Go to end of loop
+                depth = 1
+                while depth > 0:
+                    index += 1
+                    symbol = challenge[index]
+                    if symbol == "[":
+                        depth += 1
+                    elif symbol == "]":
+                        depth -= 1
+            else:
+                # Append to recursions
+                recursions.append(index)
         elif symbol == "]":
-            # If we already looped too much
-            if len(recursions) > 100:
-                raise Exception("Too many loops!")
-
             # If value at pointer is not 0, loop again
             if registers[pointer] != 0:
-                index = recursions[-1] - 1
+                loops += 1
+                index = recursions.pop() - 1
 
-    # Return registers
-    return registers
+            # Check if we are looping too much
+            if loops > 100:
+                raise Exception("Too many loops!")
+
+    # Check that registers are non-empty
+    for register in registers:
+        if register != 0:
+            return registers
+
+    # If registers empty, raise exception
+    raise Exception("Registers empty!")
 
 def alarm(sig, frm):
     print()
@@ -139,6 +155,10 @@ Unfortunately, I am also slightly stupid.
 I will ask you a series of questions.
 All you have to do, is send me your replies.
 The catch? You have to do it within {TIMEOUT} seconds.
+
+This may or may not help you:
+- {REGISTERS} 8-bit registers
+- {ROUNDS/2} rounds
 """)
 
 # Check if ready
@@ -175,6 +195,8 @@ for x in range(ROUNDS):
 
     # Prepare question
     index = random.randrange(REGISTERS)
+    while solution[index] == 0:
+        index = random.randrange(REGISTERS)
     suffix = ""
 
     # Get suffix
