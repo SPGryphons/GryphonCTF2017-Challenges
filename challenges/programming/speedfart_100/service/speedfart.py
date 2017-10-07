@@ -56,8 +56,13 @@ def generate(rounds, difficulty):
             challenge.append(next_symbol)
 
         # Randomly append loop symbols
-        if random.randrange(100) > 90:
+        if random.choice([True, False]):
             challenge.append(loops[0] if not looping else loops[1])
+            looping = not looping
+
+    # If last symbol is [, append -
+    if challenge[-1] == "[":
+        challenge.append("-")
 
     # If looping symbols not closed
     if challenge.count("[") > challenge.count("]"):
