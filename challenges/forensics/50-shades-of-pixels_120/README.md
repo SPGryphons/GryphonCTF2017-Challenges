@@ -11,5 +11,10 @@ Bob - "Okay!"
 Creator: Amos (LFlare) Ng
 ```
 
+## Hints
+```
+Perhaps the colours mean something?
+```
+
 ## Flag
 `GCTF{p1x3l1z3d_53cr375_4r3_h4w7}`
