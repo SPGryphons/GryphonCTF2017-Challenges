@@ -113,12 +113,12 @@ def solve(challenge):
                 # Go to end of loop
                 depth = 1
                 while depth > 0:
-                    index += 1
                     symbol = challenge[index]
                     if symbol == "[":
                         depth += 1
                     elif symbol == "]":
                         depth -= 1
+                    index += 1
             else:
                 # Append to recursions
                 recursions.append(index)
