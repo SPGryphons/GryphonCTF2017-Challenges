@@ -8,7 +8,10 @@ void setup() {
   DigiKeyboard.delay(400);
   DigiKeyboard.println("Hey friend i have a secret message for you! keep it safe!");
   DigiKeyboard.println("Heres the secret thing");
-  DigiKeyboard.println("bp9SQPPssHVXgnOOkQ5k91jAfMgC0ur2jfPIwwZh8Cc=");
+  DigiKeyboard.print("bp9SQPPssHVXgnOOkQ5k91jAfMgC0ur2jfPIwwZh8Cc");//"=" is needed here but can also be guessed when you get an error lol
+  DigiKeyboard.delay(250);
+  DigiKeyboard.println("SbCg==");//fake lol
+  // why am i doing this ? i dunno
   DigiKeyboard.println("Bye Frien, dont lose it!!!!");
   
   for(int z = 0; z < 73; z++){
