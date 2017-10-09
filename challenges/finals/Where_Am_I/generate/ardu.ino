@@ -8,7 +8,7 @@ void setup() {
   DigiKeyboard.delay(400);
   DigiKeyboard.println("Hey friend i have a secret message for you! keep it safe!");
   DigiKeyboard.println("Heres the secret thing");
-  DigiKeyboard.println("PWokHvOGw3sRaV1hEC0qSakL1vSImr0T9UeQdvE/TfA=");
+  DigiKeyboard.println("bp9SQPPssHVXgnOOkQ5k91jAfMgC0ur2jfPIwwZh8Cc=");
   DigiKeyboard.println("Bye Frien, dont lose it!!!!");
   
   for(int z = 0; z < 73; z++){
