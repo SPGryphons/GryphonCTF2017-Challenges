@@ -13,10 +13,11 @@ Created by paux
 
 ## Solution
 1.	when you plug in the digispark, it will open up a notepad and write out text
-2.	in next few line you will get a line, presummably the cipher text ,`bp9SQPPssHVXgnOOkQ5k91jAfMgC0ur2jfPIwwZh8Cc=`
+2.	in next few line you will get a line, presummably the cipher text ,`bp9SQPPssHVXgnOOkQ5k91jAfMgC0ur2jfPIwwZh8Cc`
+3.  followed almost immediately by `SbCg==`
 4.	after that you will realise that it is blinking...
 5.  when decoding with morsecode, you get `weirdquestionrwd`
-4.	decode via aes, get flag woo
+4.	next, for the cipher text add a `=` to it and you will be able to decde by key :)
 ## Recommended Reads
 
 ## Flag
