@@ -16,7 +16,7 @@ Created by void & exetr
 
 ## Distribution
 
-## Solution Part 2
+## Solution
 1.  Use the ALFA cards provided and hack the wifi
 2.  Upon accessing the network, a nmap scan for active ports will show a server running a service on port 80
 3.  Presented with a login screen, use simple SQL Injection codes such as `'OR 1=1 --` to get access
