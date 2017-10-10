@@ -9,7 +9,10 @@ HEllO P Eople I  aM HeRE  TO telL  yOu SOM EThiNg  i aM LEA RninG T o COmMU Nica
 ## Solution 
 1. the flag is hidden in the cipher text in groups of 6, ignoring all spaces and punctuations 
  ```110011 100001 011011 110001 010111 110010 001111 100011 011011 100010 111100 001111 100001 101011 001111 100000 001111 100010 011011 110010 001111 100000 001111 100010```
-2. each group can be used to form braille 
+2. each group can be used to form braille eg,110011 would be equal to
+   1 1
+   1 1
+   0 0
 3. decode and solve 
 
 ### Flag

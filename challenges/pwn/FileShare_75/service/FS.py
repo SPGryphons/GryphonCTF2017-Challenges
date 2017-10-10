@@ -16,19 +16,21 @@ def check(stri):
 def filename():
    return ''.join(random.choice("QWERTYUIOPASDFGHJKLZXCVBNM") for i in range(3))
 def create(line,nam,c):
+    k="/home/fileshare/"
     name="files/"+filename()
-    f=open(name,"w")
+    f=open(k+name,"w")
     print(line,file=f)
     n=[name,nam]
     k=str(n)
     return base64.b64encode(k.encode()).decode()
 def gets(filename,c):
+    kul="/home/fileshare/"
     try:
         kkkk=base64.b64decode(filename).decode()
         l=ast.literal_eval(kkkk)
         if len(l)==2 and len(l[1])>=3:
             c.sendall("~~~~~~~~~~~~~~~~~~~~~~~~\n\nFILE FROM: {}\nFILE CONTENTS: \n\n".format(l[1]).encode())
-            f=open(l[0],"r")
+            f=open(kul+l[0],"r")
             jj=f.readlines()
             for i in jj:
                z=i
@@ -85,7 +87,7 @@ YOUR INPUT => '''.format(user).encode())
             print(len(nam))
             print(len(lll))
             if len(lll)>130 or (len(nam)<3 or len(nam)>5):
-                c.sendall("sorry too much input :(\n".encode())
+                c.sendall("sorry invalid input :(\n".encode())
                 c.sendall("GOODBYE!\n".encode())
                 c.close()
             else:
@@ -106,14 +108,14 @@ YOUR INPUT => '''.format(user).encode())
                 c.sendall("GOODBYE!\n".encode())
                 c.close()
         elif r==kkk:
-            f=open("flag/thisisalongnameforadirectoryforareasonflag.txt","r")
+            f=open("/home/fileshare/flag/thisisalongnameforadirectoryforareasonflag.txt","r")
             k=f.readline()
             z="HELLO ADMINISTRATOR!\n~~~WELCOME TO THE ADMIN PORTAL~~~\n           a)  LIST ALL FILES\n           b)  PRINT FLAG\nYOUR INPUT => "
             c.sendall(z.encode())
             c.settimeout(60*2)
             h=c.recv(3).decode().strip()
             if h=="a":
-                k=os.listdir("files/")
+                k=os.listdir("/home/fileshare/files/")
                 for i in k:
                     i="- "+i+"\n"
                     c.sendall(i.encode())
