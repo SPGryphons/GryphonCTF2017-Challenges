@@ -34,7 +34,7 @@ Use the tools and passwords in the following order to get the flag
 2. OpenStego:duck
 3. rSteg:chicken
 
-##Explaination:
+## Explaination
 
 The flag is embeded in an image in an image in an image
 
