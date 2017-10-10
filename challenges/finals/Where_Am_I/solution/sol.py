@@ -14,5 +14,5 @@ def decrypt(msg_text,secret_key):
     decoded = cipher.decrypt(base64.b64decode(msg_text))
     return decoded.decode("utf-8")
 zz="weirdquestionrwd"
-print(encrypt("GCTF{th15_435_t00_w31rd_5_m3}",zz))
+#print(encrypt("GCTF{th15_435_t00_w31rd_5_m3}",zz))
 print(decrypt("bp9SQPPssHVXgnOOkQ5k91jAfMgC0ur2jfPIwwZh8Cc=",zz))
