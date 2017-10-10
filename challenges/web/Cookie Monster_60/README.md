@@ -18,7 +18,7 @@ None.
 None.
 
 ## Setup Guide
-Run `bash build.sh`
+Run `sudo bash build.sh`
 
 ## Solution
 Upon going on to the website, we can see a nice image viewer. Whatever you placed in the input field, the image will get displayed.
