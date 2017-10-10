@@ -13,7 +13,7 @@ COPY ./image.js /tmp/
 COPY ./run.py /tmp/
 COPY ./entrypoint.sh /tmp/
 RUN chmod 755 /tmp/phantomjs
-RUN chmod +x /tmp/entrypoint.sh
+RUN chmod 755 /tmp/entrypoint.sh
 EXPOSE 44445
 RUN service apache2 start
 ENTRYPOINT ["/tmp/entrypoint.sh"]
