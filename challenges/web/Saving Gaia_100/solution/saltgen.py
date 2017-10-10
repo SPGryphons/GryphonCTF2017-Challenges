@@ -23,4 +23,4 @@ for i in range(1,256):
 	print 'File:', hexfile
 	print 'Hash:', new_hash
 	'''
-	os.system('curl http://web.chal.gryphonctf.com:17565/view.php --data "magic={}&file={}&mac={}" >> data'.format(magic,hexfile,new_hash))
+	os.system('curl localhost:17565/view.php --data "magic={}&file={}&mac={}" >> data'.format(magic,hexfile,new_hash))
