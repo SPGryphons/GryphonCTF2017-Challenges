@@ -2,17 +2,12 @@
 
 ## Question Text
 
-Yet to be decided
+I heard that the organisers are storing a flag in their internal network. Looks like there's wifi???
 
-### Hint 1
-`\0`
-
-Created by void & exetr
+Creators - @void, @exetr & @zxlim
 
 ## Setup Guide
-1. Create a new vm and add vmdk as disk to vm
-`User: root`
-`Password: thisisasecurepassword`
+1.  Run the script in service/Internal-01 on a new install of a Debian-based vm.
 
 ## Distribution
 
