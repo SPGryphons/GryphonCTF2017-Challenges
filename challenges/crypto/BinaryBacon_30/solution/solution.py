@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 f=open("BINARY","r")
-n=open("BACON","r")
-ll=n.readlines()
+zzz=open("BACON","r")
+ll=zzz.readlines()
 lll=[]
 hh=""
 zz=""
@@ -24,4 +24,4 @@ print("Word => ",n.to_bytes((n.bit_length() + 7) // 8, 'big').decode(),end="\n\n
 print("Encrypted => ",hh,end="\n\n")
 print("Binary => ",zz,end="\n\n")
 f.close()
-n.close()
+zzz.close()
