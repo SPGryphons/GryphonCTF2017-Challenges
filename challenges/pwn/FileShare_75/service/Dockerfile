@@ -1,23 +1,22 @@
 FROM ubuntu:latest
-FROM python:3-onbuild
 ENV user=fileshare
+RUN apt-get update
+RUN apt-get install -y python3
 RUN useradd -m $user
-RUN mkdir /home/$user/flag
-RUN mkdir /home/$user/files
+RUN mkdir -p /home/$user/flag
+RUN mkdir -p /home/$user/files
 COPY ./files/* /home/$user/files/
 COPY ./flag/* /home/$user/flag/
-COPY ./FS.py /home/$user/FS.py
+COPY ./FS.py /home/$user/
 RUN chown root:$user /home/$user/FS.py
-RUN chmod 660 /home/$user/FS.py
-RUN chmod +x /home/$user/FS.py
-RUN chown $user:$user /home/$user/files
+RUN chmod 440 /home/$user/FS.py
+RUN chown root:$user /home/$user/files
 RUN chmod 660 /home/$user/files
 RUN chmod +x /home/$user/files
-RUN chown $user:$user /home/$user/files
-RUN chown $user:$user /home/$user/flag
-RUN chmod 440 /home/$user/flag
+RUN chown root:$user /home/$user/flag
+RUN chmod 444 /home/$user/flag
 RUN chmod +x /home/$user/flag
-USER $user
-WORKDIR /home/$user
+USER fileshare
+WORKDIR /home/fileshare
 EXPOSE 49760
-CMD ["python3","/home/fileshare/FS.py"]
+CMD ["python3", "/home/fileshare/FS.py"]
