@@ -10,6 +10,10 @@ Connect: `139.59.123.16 17455`
 _Creator - @LFlare_
 ```
 
+## Solution
+**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
+1. Program harder.
+
 ## Setup
 1. Build server docker image with `cd service && ./build.sh`.
 2. Run server docker image with `cd service && ./run.sh`.

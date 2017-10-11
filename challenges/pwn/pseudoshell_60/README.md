@@ -10,6 +10,10 @@ Connect: `139.59.123.16 17341`
 _Creator - @LFlare_
 ```
 
+## Solution
+**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
+1. Spam characters to overwrite access
+
 ## Setup
 1. Build both binaries with `cd generate && make`.
 2. Build server docker image with `cd service && ./build.sh`.

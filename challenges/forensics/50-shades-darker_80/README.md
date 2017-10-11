@@ -12,5 +12,9 @@ Alice - "This seems weird."
 Creator: Amos (LFlare) Ng
 ```
 
+## Solution
+**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
+1. Like previous, pixel values divided by 2 contains flag
+
 ## Flag
 `GCTF{7h15_d4rkn355_15_n07_45_3xp3c73d_3h}`

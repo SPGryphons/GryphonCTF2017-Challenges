@@ -10,5 +10,9 @@ My bassist wrote this down on a piece of paper before he died of lack of Vitamin
 Created By: Amos (LFlare) Ng
 ```
 
+## Solution
+**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
+1. It's encodings of encodings.
+
 ## Flag
 `GCTF{b4535_4r3_c0nfu51n6_m4n}`

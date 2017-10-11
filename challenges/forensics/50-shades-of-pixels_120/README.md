@@ -16,5 +16,9 @@ Creator: Amos (LFlare) Ng
 Perhaps the colours mean something?
 ```
 
+## Solution
+**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
+1. Like previous, pixel values are circular-shifted left to contain flag.
+
 ## Flag
 `GCTF{p1x3l1z3d_53cr375_4r3_h4w7}`

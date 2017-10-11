@@ -8,5 +8,10 @@ My white candy wrapper had this weird numbers encoded in it's molecular structur
 Creator: Amos (LFlare) Ng
 ```
 
+## Solution
+**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
+1. `e` too small for modulo `N` to hide message.
+2. `e`-root.
+
 ## Flag
 `GCTF{7h3_m355463_15_h1l4r10u5ly_5h0r7}`
