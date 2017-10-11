@@ -1,5 +1,8 @@
 # Fish Shoup
 
+## Category
+Web 50
+
 ## Question Text
 
 >Help all marshmellow fart and skittle burp fishes!!!
@@ -9,7 +12,7 @@
 >Log into it to get your awesome reward of helping us, we are nice creatures!
 >
 >But remember to keep it a secret! Shhh...
->Connect via `http://<ip address> 17456`
+>Connect via `http://<ip address>:17456`
 
 ## Created by
 

@@ -17,7 +17,7 @@ Created by paux
 3.  followed almost immediately by `SbCg==`
 4.	after that you will realise that it is blinking...
 5.  when decoding with morsecode, you get `weirdquestionrwd`
-4.	next, for the cipher text add a `=` to it and you will be able to decde by key :)
+4.	next, for the cipher text add a `=` to it and you will be able to decode by key :)
 ## Recommended Reads
 
 ## Flag

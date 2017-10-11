@@ -1,6 +1,6 @@
-# GCTF Challenges | October 2017/2018
+# GryphonCTF 2017
 
-This repository contains all the challenges for GCTF.
+This repository contains all the challenges for GryphonCTF 2017.
 
 ## Information of each challenge folder
 Every challenge folder will have a `README.md` file that details what the challenge is about and how to solve it. The following explains the folders and their role.

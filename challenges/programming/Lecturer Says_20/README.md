@@ -4,7 +4,7 @@ Basic programming knowledge required
 <i>Creator - @Platy</i>
 
 ## Category
-Programming
+Programming 20
 
 ## Question
 >Exams are coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
@@ -15,7 +15,7 @@ Programming
 None.
 
 ## Setup Guide
-Do `bash build.sh`
+Do `sudo bash build.sh`
 
 ## Distribution
 None.
