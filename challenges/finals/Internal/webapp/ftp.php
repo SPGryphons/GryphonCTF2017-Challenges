@@ -20,8 +20,6 @@
 				$path .= $file;
 			}
 
-			echo $path;
-
 			include($path);
 
 		} else {
