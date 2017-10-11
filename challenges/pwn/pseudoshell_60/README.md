@@ -12,7 +12,8 @@ _Creator - @LFlare_
 
 ## Solution
 **_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Spam characters to overwrite access
+1. Simple buffer overflow to overwrite `access`.
+2. Get flag.
 
 ## Setup
 1. Build both binaries with `cd generate && make`.

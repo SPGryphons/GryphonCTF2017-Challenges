@@ -14,7 +14,10 @@ Creator: Amos (LFlare) Ng
 
 ## Solution
 **_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Like previous, pixel values divided by 2 contains flag
+1. Starting from top-left corner, retrieve pixel colour values.
+2. Divide values by 2.
+3. Convert colour values to ASCII character.
+4. Rinse and repeat till you get the flag.
 
 ## Flag
 `GCTF{7h15_d4rkn355_15_n07_45_3xp3c73d_3h}`

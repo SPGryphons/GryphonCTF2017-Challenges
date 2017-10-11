@@ -11,7 +11,9 @@ Creator: Amos (LFlare) Ng
 
 ## Solution
 **_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Pixel values contains flag
+1. Starting from top-left corner, retrieve pixel colour values.
+2. Convert colour values to ASCII character.
+3. Rinse and repeat till you get the flag.
 
 ## Flag
 `GCTF{n0w_7h3y_4r3_ju57_2_h4w7_2_br16h7_4_m3}`

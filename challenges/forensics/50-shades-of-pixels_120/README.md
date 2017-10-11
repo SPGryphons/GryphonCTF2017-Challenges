@@ -18,7 +18,10 @@ Perhaps the colours mean something?
 
 ## Solution
 **_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Like previous, pixel values are circular-shifted left to contain flag.
+1. Starting from top-left corner, retrieve pixel colour values.
+2. Shift values circular left by 1.
+3. Convert colour values to ASCII character.
+4. Rinse and repeat till you get the flag.
 
 ## Flag
 `GCTF{p1x3l1z3d_53cr375_4r3_h4w7}`

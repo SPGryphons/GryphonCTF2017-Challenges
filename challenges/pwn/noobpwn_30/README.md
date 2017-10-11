@@ -12,7 +12,10 @@ _Creator - @LFlare_
 
 ## Solution
 **_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Read from stdin by manipulating input values
+1. Apply the Euler's Algorithm to the binary.
+2. Submit `0x31337` as decimal to read from `stdin`.
+3. Enter in `GIMMEDAFLAG`.
+4. Get flag.
 
 ## Setup
 1. Build both binaries with `cd generate && make`.

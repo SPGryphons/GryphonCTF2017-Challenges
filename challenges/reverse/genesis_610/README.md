@@ -12,7 +12,7 @@ _Creator - @LFlare_
 
 ## Solution
 **_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. No short solution, read previous line
+1. No short solution, read previous line.
 
 ## Setup
 1. Build both binaries with `cd generate && make`.
