@@ -3,9 +3,6 @@ Understanding that One-Time-Pad should only be used one time.
 
 <i>Creator - @Platy</i>
 
-## Category
-Crypto
-
 ## Question
 >Alice has just learnt about encryption and OTPs in Applied Cryptography. Now she wants to put her knowledge to the test. She successfully implemented OTPs into her Java code, but the lecturer said that it is insecure.
 

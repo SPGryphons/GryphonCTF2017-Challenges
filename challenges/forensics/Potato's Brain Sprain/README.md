@@ -2,9 +2,6 @@
 
 <i>Creators - @Platy &amp; @paux</i>
 
-## Category
-Forensics
-
 ## Question
 >Look at my ascii art it so beautiful! I hid something inside...
 

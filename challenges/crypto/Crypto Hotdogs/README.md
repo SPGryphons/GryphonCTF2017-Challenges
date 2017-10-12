@@ -3,9 +3,6 @@ Crack RSA
 
 <i>Creator - @Platy</i>
 
-## Category
-Crypto
-
 ## Question
 >Our team, the Crypto Hotdogs seek for your help. We have encrypted our flag with the public key. However, some idiot told one of my team members that the command 'rm' meant 'remake'. Basically, he deleted our private key. Maybe you can help us.
 

@@ -3,9 +3,6 @@ pptx format is actually a technically a zip file
 
 <i>Creator - @Platy</i>
 
-## Category
-Forensics
-
 ## Question
 >I was given this pptx file. Find the flag!
 

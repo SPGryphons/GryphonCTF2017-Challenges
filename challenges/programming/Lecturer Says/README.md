@@ -3,9 +3,6 @@ Basic programming knowledge required
 
 <i>Creator - @Platy</i>
 
-## Category
-Programming 20
-
 ## Question
 >Exams are coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
 >

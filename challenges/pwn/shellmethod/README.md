@@ -10,6 +10,10 @@ I've taken the previous challenge, tossed away the personality and replaced it w
 _Creator - @LFlare_
 ```
 
+## Setup
+1. Build both binaries with `cd generate && make`.
+2. Build and run server docker image with `cd service && ./build.sh`.
+
 ## Solution
 Slightly more challenging than Tsundeflow, this one requires the knowledge of shellcodes. Shellcodes are essentially machine language, compiled in the form to execute a shell, commonly `/bin/sh`. Additionally, the binary is built to be easier for juniors by enabling execution on heap/stack. For this solution, we will be going with a very classical approach to things.
 
@@ -38,9 +42,4 @@ Like the previous challenge, this is simplified in [python](solution/solve.py).
 
 ### Flag
 `GCTF{5h3llc0d35_4r3_ju57_4553mbly}`
-
-## Setup
-1. Build both binaries with `cd generate && make`.
-2. Build server docker image with `cd service && ./build.sh`.
-3. Run server docker image with `cd service && ./run.sh`.
 

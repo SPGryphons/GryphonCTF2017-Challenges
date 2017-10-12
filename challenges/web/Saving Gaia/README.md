@@ -3,9 +3,6 @@ Testing on Local File Inclusion exploit, hash length extension attacks and findi
 
 <i>Creator - @Platy</i>
 
-## Category
-Web 100
-
 ## Question
 >Please save the environment to get the flag!
 >

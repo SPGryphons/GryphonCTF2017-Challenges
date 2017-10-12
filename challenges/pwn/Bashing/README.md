@@ -3,9 +3,6 @@ Testing on bash injection knowledge
 
 <i>Creator - @Platy</i>
 
-## Category
-Pwn 150
-
 ## Question
 >You are not yourself when you are hungry. Have a CTF challenge and stop <i>bashing</i> people up.
 >

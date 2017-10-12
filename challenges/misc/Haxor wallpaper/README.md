@@ -3,9 +3,6 @@ Understanding of html and css
 
 <i>Creator - @Platy</i>
 
-## Category
-Misc
-
 ## Question
 >This cringey script kiddie from YouTube constantly claims that he's an elite hacker. He sent me this file claiming that it's the source code for a wallpaper virus that he had written. I'm really scared to run it. Help me figure out what he sent!
 >

@@ -3,9 +3,6 @@ Curl doesn't run Javascript
 
 <i>Creator - @Platy</i>
 
-## Category
-Web 10
-
 ## Question
 >Void has been working hard during the holidays. He says he has a very nice website that he coded. However, I cannot seem to open it. Can you help me?
 

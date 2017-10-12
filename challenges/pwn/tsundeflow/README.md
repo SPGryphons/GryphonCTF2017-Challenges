@@ -10,6 +10,10 @@ This one is a handful.
 _Creator - @LFlare_
 ```
 
+## Setup
+1. Build both binaries with `cd generate && make`.
+2. Build and run server docker image with `cd service && ./build.sh`.
+
 ## Solution
 As the simplest pwn challenge, this one is solvable by overflowing the address of `win()` to the `RET` address on the buffer. Calculating the amount of junk before reaching `RET` is as simple as `32` size of buffer + `4` address of the stack frame pointer, to reach `36`.
 
@@ -44,6 +48,3 @@ Another way of getting the address involves [pwntools](https://github.com/Gallop
 ### Flags
 `GCTF{51mpl3_buff3r_0v3rfl0w_f0r_75und3r35}`
 
-## Setup
-1. Build both binaries with `cd generate && make`.
-2. Build and run server docker image with `cd service && ./build.sh`.

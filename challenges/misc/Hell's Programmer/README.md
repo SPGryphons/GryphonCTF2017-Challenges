@@ -3,9 +3,6 @@ Test Googling skills.
 
 <i>Creator - @Platy</i>
 
-## Category
-Sanity
-
 ## Question
 >It's pretty hellish down there! I created a small print statement using esolang. Interpret and get the flag!
 

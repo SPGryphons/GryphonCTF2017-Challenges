@@ -10,6 +10,10 @@ Getting tired of pwn? How about an easier one?
 _Creator - @LFlare_
 ```
 
+## Setup
+1. Build both binaries with `cd generate && make`.
+2. Build and run server docker image with `cd service && ./build.sh`.
+
 ## Solution
 1. Apply the Euler's Algorithm to the binary.
 2. Submit `0x31337` as decimal to read from `stdin`.
@@ -21,8 +25,4 @@ _Creator - @LFlare_
 ### Flag
 `GCTF{f1l3_d35cr1p70r5_4r3_n457y}`
 
-## Setup
-1. Build both binaries with `cd generate && make`.
-2. Build server docker image with `cd service && ./build.sh`.
-3. Run server docker image with `cd service && ./run.sh`.
 

@@ -3,9 +3,6 @@ Create program to hash stuff
 
 <i>Creator - @Platy</i>
 
-## Category
-Programming 30
-
 ## Question
 >I'm running low on cash right now. Luckily, I found this virtual currency that uses inputs that when hashed, produces a hexdigest in which the first 2 characters are '00'. I just need 20 of them. Thanks!
 >

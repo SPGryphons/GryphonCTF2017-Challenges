@@ -9,6 +9,9 @@ In the beginning, there was nothing.
 
 _Creator - @LFlare_
 ```
+## Setup
+1. Build both binaries with `cd generate && make`.
+2. Build and run server docker image with `./service/build.sh`.
 
 ## Solution
 
@@ -22,7 +25,3 @@ _Creator - @LFlare_
 5. `GCTF{1nv3r53_r0075_m4d3_1n3ff1c13n7}`
 6. `GCTF{1rc_15_p0pul4r_4m0n6_c7f_pl4y3r5_700}`
 
-## Setup
-1. Build both binaries with `cd generate && make`.
-2. Build server docker image with `./service/build.sh`.
-3. Run server docker image with `PORT=9990 ./service/run.sh`.

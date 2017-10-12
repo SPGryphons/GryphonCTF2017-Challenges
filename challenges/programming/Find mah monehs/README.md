@@ -3,9 +3,6 @@ Testing on programming knowledge
 
 <i>Creator - @Platy</i>
 
-## Category
-Programming
-
 ## Question
 >NEEDZ HALPZ ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. ME WANTS $100. CAN HALP PLZ? THX M8!
 >
