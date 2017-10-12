@@ -15,7 +15,6 @@ text file
 ## Solution
 1.	basically, the characters correspond with places on a chess board and drawing them out forms characters
 2.	piecing characters together gets you the flag
-## Recommended Reads
 
-## Flag
+### Flag
 `GCTF{ch3k_15_m8}`

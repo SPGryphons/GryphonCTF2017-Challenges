@@ -92,6 +92,3 @@ We can use openssl do decrypt `flag.bin`
 
 ## Credits
 - https://github.com/pablocelayes/rsa-wiener-attack
-
-## Recommended Reads
-None.

@@ -25,4 +25,5 @@ OR
 5.  another way would be to analyse the percentage of symbols appearing and corresponding it to the alphabet
 6.  get flag! 
 
-
+### Flag
+`GCTF{THIS_SONG_ISH_TOO_STRONK}`

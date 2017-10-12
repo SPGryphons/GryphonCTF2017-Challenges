@@ -1,0 +1,19 @@
+Terms and Conditions
+
+By registering and participating in GryphonCTF 2017 ("Competition"), you are deemed to have read and agreed to the Competition Rules and Terms and Conditions of the Competition (Collectively known as "Terms").
+
+This Competition is open only to current Singapore Polytechnic Students ("Students"). Students are required to form a team of 3 or 4 ("Team") and register. Only then will the members of the Team ("Participants") be eligible to take part in the Competition. Only Participants from Year 1 and Year 2 are considered "competitive" and eligible for the Top 3 prizes. Year 3 Participants are considered "non-competitive" Participants in the Competiton. Thus, teams consisting of Year 1 or Year 2 Students with Year 3 Students will be considered "non-competitive" under this condition. All Teams must consist of at least 2 Diploma in Infocomm Security Management Students.
+
+Participants are expected to use their own computers and/ or other relevant equipment ("Equipment") for this Competition.
+
+Participants are not allowed to attack, impede or interfere with the operations of the Competition's networks, servers and systems ("Infrastructure") or of other Participants. For example, actions like modifying or deleting challenge flags, port scanning or network enumeration of Infrastructure, attacking the scoring system or denial of service attacks against any Participants or Infrastructure are not allowed. This is not an "attack-and-defend" Capture The Flag competition. The only exception to this rule is if and when a Competition challenge ("Challenge") calls for such action to be taken. Participation in this Competition does not exempt a Participant from the Computer Misuse and Cybersecurity Act or any other relevant Laws of the Republic of Singapore when interacting with any Infrastructure or outside of it.
+
+Should any unintended bugs or glitches in the Infrastructure or Challenges be found, it shall be reported it to the Competition Organisers ("Organisers") at the soonest possible time. Awarding of bonus points to the Participant's Team for such reports will be up to the Organisers' decision.
+
+Sharing of solutions, flags or hints between Teams are not allowed. Same goes for brute-forcing the submission of flags in the scoring system. The Organisers reserve the right to disable access to the scoring system for the offending Team account or even subject the Team to disqualification should the Team be caught cheating.
+
+Organisers are not liable for any damages or losses caused to the Participant's Equipment in the course of their participation in the Competition. The Organisers are also not responsible for any actions committed by a Participant or Team that result in damages or losses to anything outside of the Competition.
+
+Any breach of the rules or terms by any Participants or Teams will be subjected to disqualification.
+
+The Organisers reserve the right to modify the Terms at any time without notice. The decisions of the Organisers are final and binding. No appeals will be tolerated.

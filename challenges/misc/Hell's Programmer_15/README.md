@@ -28,5 +28,3 @@ Go to [Malbolge Tools](http://zb3.me/malbolge-tools/#interpreter), copy and past
 ## Credits
 http://zb3.me/malbolge-tools/#generator
 
-## Recommended Reads
-None.

@@ -1,15 +1,6 @@
-#! /bin/bash
-##
-# Created for GryphonCTF 2017_Genesis
-# By Amos (LFlare) Ng <amosng1@gmail.com>
-##
-# Script misc
-SCRIPT=`readlink -f "$0"`
-SCRIPTPATH=`dirname "${SCRIPT}"`
-cd $SCRIPTPATH
-
-# Build image
+#!/bin/sh
+## [ security@dismgryphons.com ]
+## Simplified build script
 docker build -t genesis .
-
-# Return directory
-cd -
+docker run --restart always --memory 64M -dt -p 17234:9999 --name rev-genesis genesis
+docker start rev-genesis

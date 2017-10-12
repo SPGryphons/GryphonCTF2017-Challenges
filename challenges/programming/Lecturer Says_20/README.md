@@ -4,21 +4,15 @@ Basic programming knowledge required
 <i>Creator - @Platy</i>
 
 ## Category
-Programming
+Programming 20
 
 ## Question
 >Exams are coming soon! I haven't studied a thing! Luckily, the lecturers are giving out hints!
 >
->Connect via `nc <ip address> 17451`
-
-### Hint
-None.
+>`nc prog.chal.gryphonctf.com 17451`
 
 ## Setup Guide
-Do `bash build.sh`
-
-## Distribution
-None.
+Do `sudo bash build.sh`
 
 ## Solution
 Write a socket to check if the text has `\033[92m` in it. Respond accordingly.
@@ -30,6 +24,3 @@ Working solution `solution.py` in solution directory
 
 ## Credits
 Simon says? I don't know...
-
-## Recommended Reads
-None.

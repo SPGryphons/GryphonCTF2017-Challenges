@@ -1,7 +1,7 @@
 # Comments Down Below
 
 ## Question Text
-Find the flag! It is somewhere here: link to page
+Find the flag! It is somewhere here: http://san.chal.gryphonctf.com:17121
 
 *Creator - Chuan Kai (@exetr)*
 

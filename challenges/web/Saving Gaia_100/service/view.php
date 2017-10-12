@@ -35,7 +35,7 @@
 							echo "You are not authorised to view this file!";
 						}
 					} else {
-						echo "You are not authorised to view this file!";
+						echo "Oh no";
 					}
 				?>
 			</article>

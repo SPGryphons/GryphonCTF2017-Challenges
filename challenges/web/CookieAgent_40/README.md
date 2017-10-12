@@ -1,20 +1,16 @@
 # COOKIE AGENT
 
 ## Question Text
-
 I found this mysterious secret agency site while browsing the web, please help me find out what conspiracies lies within??!!?
+
+http://web.chal.gryphonctf.com:17561
 
 Created by paux
 
 ## Setup Guide
 1. run startup.sh
 
-## Distribution
-< ip >:< port >
-
-as of now port is `17561`
 ## Solution
-
 1.  when inspecting elements, you will notice that the background image is located in the directory called "more"
 
 2.  Upon checking the directory, you will realise that there is a page called "backup.txt". This contains the java code for the jsp page
@@ -52,9 +48,6 @@ WELCOME roottoor !
 Sufficiently paid!
 Heres the flag "GCTF{w3_ar3_7h3_c00k13_ag3nc9}"
 ```
-
-
-## Recommended Reads
 
 ## Flag
 `GCTF{w3_ar3_7h3_c00k13_ag3nc9}`

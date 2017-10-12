@@ -16,5 +16,12 @@ Creator: Amos (LFlare) Ng
 Perhaps the colours mean something?
 ```
 
-## Flag
+## Solution
+Solution to this challenge can be done in many ways, though my personal recommendation is through Python's `PIL` library.
+
+Initially, receiving the file might give some people headaches wondering how I hid the message. Well, the very interesting pattern of shades of grey pixels might give you a hint. The message is encoded in the red, blue and green values of the pixels.
+
+Reading the pixels from top left to top right will grant you the message, it's really easily solved in [Python](solution/solve.py). You might need to install `pip` and run `pip install pillow` to get the neccessary libraries for this to work.
+
+### Flag
 `GCTF{p1x3l1z3d_53cr375_4r3_h4w7}`

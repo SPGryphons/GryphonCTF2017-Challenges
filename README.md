@@ -1,6 +1,6 @@
-# GCTF Challenges | October 2017/2018
+# GryphonCTF 2017
 
-This repository contains all the challenges for GCTF.
+This repository contains all the challenges for GryphonCTF 2017.
 
 ## Information of each challenge folder
 Every challenge folder will have a `README.md` file that details what the challenge is about and how to solve it. The following explains the folders and their role.
@@ -21,6 +21,7 @@ To install Docker for the common Linux distributions, run the script at: https:/
 1. Change your directory to the challenge you would wish to host.
 2. Run the `build.sh` scripts in either the root directory of the challenge or the service directory.
 3. Type `docker inspect <containername>` or enter the docker via `docker exec -it <containername> sh` and `ifconfig` to find the IP address and head to that IP.
+4. When attempting the challenges in your local setup, do take note to change all `*.chal.gryphonctf.com` to your local ip
 
 ## Others
 To create a new challenge, follow the template on challenges/template/README.md

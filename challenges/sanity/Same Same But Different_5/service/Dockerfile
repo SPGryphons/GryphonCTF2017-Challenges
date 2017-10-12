@@ -1,7 +1,4 @@
-FROM debian:sid
-RUN apt-get update
-RUN apt-get install -y apache2
-COPY ./GCΤF{ΤHIS_IS_A_LOΟΟOOOOОOOΟOOOΟOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOG_FLAG}.html /var/www/html/.
-EXPOSE 80
-RUN service apache2 start
-CMD apachectl -D FOREGROUND
+FROM httpd:2.4-alpine
+RUN rm -rf /usr/local/apache2/htdocs/ && mkdir -p /usr/local/apache2/htdocs/
+COPY ./GCΤF{ΤHIS_IS_A_LOΟΟOOOOОOOΟOOOΟOOOOOOOOOOOOOOOOOG_FLAG}.html /usr/local/apache2/htdocs/
+COPY ./.htaccess /usr/local/apache2/htdocs/

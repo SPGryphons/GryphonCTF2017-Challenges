@@ -9,7 +9,7 @@ Programming
 ## Question
 >NEEDZ HALPZ ME 2 FIND MAH MONEHS 2 BUY SUM GAMEZ. ME WANTS $100. CAN HALP PLZ? THX M8!
 >
->Connect via `nc <ip address> 17454`
+>`nc prog.chal.gryphonctf.com 17454`
 
 ### Hint
 PATH FINDIN ALGORITHM M8
@@ -59,9 +59,3 @@ Working program in solution.
 
 ### Flag
 `GCTF{1_w45_br0k3_bu7_n0_m0r3}`
-
-## Credits
-None.
-
-## Recommended Reads
-None.

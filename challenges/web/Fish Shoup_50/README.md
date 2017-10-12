@@ -1,5 +1,8 @@
 # Fish Shoup
 
+## Category
+Web 50
+
 ## Question Text
 
 >Help all marshmellow fart and skittle burp fishes!!!
@@ -9,7 +12,7 @@
 >Log into it to get your awesome reward of helping us, we are nice creatures!
 >
 >But remember to keep it a secret! Shhh...
->Connect via `http://<ip address> 17456`
+>http://web.chal.gryphonctf.com:17562
 
 ## Created by
 
@@ -43,6 +46,3 @@ None.
 CTF 101.
 
 Thanks @Lflare for fixing mysql issues.
-
-## Recommended Reads
-None.

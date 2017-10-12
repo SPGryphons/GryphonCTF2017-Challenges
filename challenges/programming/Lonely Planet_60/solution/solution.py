@@ -13,9 +13,8 @@ def of():
 file=of()
 lang={"English":0,"Alphabetrium":1,"Gazorpazorpian":2,"Numberconian":3,"Martian":4,"Unition":5,"Blitzion":6,"Chipzion":7,"Morphian":8}
 socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-socket.connect(("127.0.0.1",59949))
+socket.connect(("prog.chal.gryphonctf.com",17453))
 print(socket.recv(2168).decode())
-
 k=socket.recv(248).decode()
 try:
     while k!="":

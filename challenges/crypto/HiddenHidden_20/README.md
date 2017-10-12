@@ -13,11 +13,13 @@ Created by paux
 file with hidden file
 - hiddenflag
 
-
 ## Solution
 1.	create a program that would decode the file in binary then base64
 2.	run it on a loop and use a regex to print and break loop when it starts with "GCTF{"
 3.	get flag!
+
+### Flag
+`GCTF{100p1n65_5_4ev44a44rz}`
 
 ## Recommended Reads
 inspired by the [`godeep`](https://github.com/rootkie/xctf2017-writeups/tree/master/qualifiers/godeep) challenge in CrossCtf

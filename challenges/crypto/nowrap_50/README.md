@@ -8,5 +8,11 @@ My white candy wrapper had this weird numbers encoded in it's molecular structur
 Creator: Amos (LFlare) Ng
 ```
 
-## Flag
+## Solution
+1. Cube root `c`.
+2. Convert base-10 to ASCII flag.
+
+<i>The creator did not published the full solutions for this challenge.</i>
+
+### Flag
 `GCTF{7h3_m355463_15_h1l4r10u5ly_5h0r7}`

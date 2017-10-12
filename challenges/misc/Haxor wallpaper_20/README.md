@@ -57,5 +57,3 @@ Link the file in html.
 ## Credits
 http://picascii.com/
 
-## Recommended Reads
-None.

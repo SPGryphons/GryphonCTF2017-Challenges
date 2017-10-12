@@ -1,0 +1,7 @@
+ServerSignature Off
+Options -Indexes
+IndexIgnore *
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
