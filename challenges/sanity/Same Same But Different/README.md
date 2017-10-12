@@ -18,5 +18,5 @@ Not everything is as it seems
 ## Solution
 1. Type the flag out manually
 2. Use any online homoglyph decoder
-###Flag
+### Flag
 `GCTF{THIS_IS_A_LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOG_FLAG}`

@@ -14,5 +14,5 @@ Find the flag! It is somewhere here: http://san.chal.gryphonctf.com:17121
 ## Solution
 1. Inspect elements of the page
 2. Scroll down to find flag commented out
-###Flag
+### Flag
 `GCTF{c0mm3nt_-_c0mm3nt4ry_4_dayz}`
