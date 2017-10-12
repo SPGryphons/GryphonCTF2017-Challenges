@@ -21,6 +21,7 @@ To install Docker for the common Linux distributions, run the script at: https:/
 1. Change your directory to the challenge you would wish to host.
 2. Run the `build.sh` scripts in either the root directory of the challenge or the service directory.
 3. Type `docker inspect <containername>` or enter the docker via `docker exec -it <containername> sh` and `ifconfig` to find the IP address and head to that IP.
+4. When attempting the challenges in your local setup, do take note to change all `*.chal.gryphonctf.com` to your local ip
 
 ## Others
 To create a new challenge, follow the template on challenges/template/README.md

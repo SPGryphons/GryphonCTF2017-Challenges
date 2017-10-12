@@ -19,8 +19,9 @@ image for "decrypt"
 3.	enabling you to be able open the jpg file successfully
 4.	The next step is to use photoshop/online tools to retrieve the watermark with the flag on it.
 
+### Flag
+`GCTF{f0r3n51c5_15_e45y}`
+
 ## Recommended Reads
 - personally recommend this for quick checking of images
 <br>https://29a.ch/photo-forensics/
-## Flag
-`GCTF{f0r3n51c5_15_e45y}`

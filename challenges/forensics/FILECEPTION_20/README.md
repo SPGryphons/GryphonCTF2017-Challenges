@@ -17,8 +17,5 @@ jfif file with hidden zip file
 2.	by opening the image using zip, you will realise that there is a file named "IMPORTNATDOCUMENTS"
 3.	the zip file is encrypted, however, looking at the jfif in a text editor you will realise that at the last line, there is a line saying that the password is `long_pa55w0rd_y0u_c4nt_cr4ck`
 
-
-## Recommended Reads
-
-## Flag
+### Flag
 `GCTF{4_fi13_1n_4_f1l3_1n_4_f11e}`

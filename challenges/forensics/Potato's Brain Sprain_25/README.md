@@ -8,9 +8,6 @@ Forensics
 ## Question
 >Look at my ascii art it so beautiful! I hid something inside...
 
-### Hint
-None.
-
 ## Setup Guide
 Generate flag with brainf*ck generator
 
@@ -28,6 +25,3 @@ Write program to filter the brainf*ck syntax
 
 ## Credits
 https://copy.sh/brainfuck/text.html
-
-## Recommended Reads
-None.

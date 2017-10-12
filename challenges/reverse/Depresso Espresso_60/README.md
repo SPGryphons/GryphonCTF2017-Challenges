@@ -83,5 +83,3 @@ Working solution in solution directory.
 ## Credits
 - https://github.com/java-decompiler/jd-gui
 
-## Recommended Reads
-None.

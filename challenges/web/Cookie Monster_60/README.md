@@ -9,13 +9,7 @@ Web
 ## Question
 >Cookie monster has stolen my cookies again! And apparently, he learnt how to create a website to get more cookies! He is accepting nice images from users and running it on his image viewer using what he thinks is the best browser, Internet Explorer. Retrieve the cookie that he stole from me! Thanks!
 >
->Connect via `http://<ip address>:17563` and `nc <ip address> 17564`
-
-### Hint
-None.
-
-## Distribution
-None.
+>Connect via `http://web.chal.gryphonctf.com:17563` and `nc web.chal.gryphonctf.com 17564`
 
 ## Setup Guide
 Run `sudo bash build.sh`
@@ -56,9 +50,3 @@ We can now enter and pretend to be cookie monster to get the flag.
 
 ### Flag
 `GCTF{c_15_f0r_c00k13_4nd_c00k13_15_f0r_m3}`
-
-## Credits
-None.
-
-## Recommended Reads
-None.

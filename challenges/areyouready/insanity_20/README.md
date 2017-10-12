@@ -11,13 +11,12 @@ Created By: Amos (LFlare) Ng
 ```
 
 ## Solution
-**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Attempt to decode result from base64, base32 or base16.
-2. Attempt to decode result from base64, base32 or base16.
-3. Attempt to decode result from base64, base32 or base16.
-4. Attempt to decode result from base64, base32 or base16.
-5. Attempt to decode result from base64, base32 or base16.
+1. Decode text from base32
+2. Decode text from base64
+3. Decode text from base32
+4. Decode text from base16.
+5. Decode text from base64
 6. Get the flag.
 
-## Flag
+### Flag
 `GCTF{b4535_4r3_c0nfu51n6_m4n}`

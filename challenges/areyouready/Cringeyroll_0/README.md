@@ -9,7 +9,7 @@ Are you ready? 0
 ## Question
 >OH MAH GAWD THE ANIMU AWARDS R HERE! OBVIOUSLY, YURI ON ICE IS GOING TO WIN, BUT SOME OTHER CRAP ANIME THAT I HAVEN'T WATCHED B4 R WINNING!!!11!!!1! MAKE THE YURI ON ICE SCORE 1000000!!! I GIV U FLAG IF U DO IT!
 >
->Connect via http://<ip address>:17122
+>http://san.chal.gryphonctf.com:17122
 
 ### Hint
 None.
@@ -43,7 +43,7 @@ Points will now be 1,000,000
 
 <b>Curl</b>
 ```bash
-curl 'http://192.168.159.131:30000/index.php'--data 'yoi=1000200' | grep GCTF
+curl 'http://san.chal.gryphonctf.com:17122'--data 'yoi=1000200' | grep GCTF
 ```
 
 Too easy.
@@ -53,6 +53,3 @@ Too easy.
 
 ## Credits
 Some challenge in hack this site.
-
-## Recommended Reads
-None.

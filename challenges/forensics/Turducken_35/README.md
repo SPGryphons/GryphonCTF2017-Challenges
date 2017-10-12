@@ -50,7 +50,7 @@ Alternatively, you can also view the hex values of the file, of which at the bot
 2. Repeating the first step with the 2nd layer will allow you to retrieve the last image to extract the flag from
 3. The tool for the last step however, has not been directly provided in any way. You are meant to use the hint of the filename 'Don't forget the coffee' (an indirect reference to java) as well as the question text that multiple tools have been used and java is needed, in order to find the tool to retrieve the flag. Going through the recommended reads will allow you to find the other tools that use java and extract the flag
 
-## Flag
+### Flag
 `GCTF{H0n3st1y_I_pr3f3r_f1sh}`
 
 ## Recommended Reads

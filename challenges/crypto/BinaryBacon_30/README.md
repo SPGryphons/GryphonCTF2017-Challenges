@@ -22,7 +22,5 @@ book cipher file
 3.  With that you can write a simple program to get each character corresponding to each line in `BINARY.txt` converting uppercase letters to "1" and lowercase to "0"
 4.  convert the binary to ascii and you will get the flag
 
-## Recommended Reads
-
-## Flag
+### Flag
 `GCTF{b1n4ryb4c0n_ciph3r_15_z3_b3st_ciph3r_4_u}`

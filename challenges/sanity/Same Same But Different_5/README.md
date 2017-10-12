@@ -1,7 +1,7 @@
 #Same Same But Different
 
 ## Question Text
-Flag is at `link'
+Flag is at http://san.chal.gryphonctf.com:17123
 https://youtu.be/nREK2Wj0wJ4?t=25s
 
 *Creator - @kkkkk & @exetr*

@@ -71,6 +71,3 @@ AlexCTF 2017
 Crypto
 
 CR2 Many time secrets - 100pts
-
-## Recommended Reads
-None.

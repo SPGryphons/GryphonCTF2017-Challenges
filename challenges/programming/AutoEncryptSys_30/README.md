@@ -1,5 +1,5 @@
 # AutoEncryptSys
-# Question Text
+## Question Text
 
 I retrieved a bunch of files from the an automatic encryption system online, I found out how they encrypt is by using aes followed by base64 encoding it and finally, storing it in a text file with the name being the key of the aes encryption. However, im only looking for one file that contains the flag... and i dont have time to look through all 1002 files could you please help me?
 
@@ -16,7 +16,5 @@ zip file containing all the files
 1.	all the files are encrypted by AES followed by base64
 2.	therefore, all you have to do is make a simple program to run through the entire directory and decrypt.
 
-## Recommended Reads
-
-## Flag
+### Flag
 `GCTF{wh4ts_1n_th3_f1l355}`

@@ -17,11 +17,11 @@ Perhaps the colours mean something?
 ```
 
 ## Solution
-**_More in-depth explanation at my writeups on [GitHub](https://github.com/LFlare/gryphonctf_2017_writeup)_**
-1. Starting from top-left corner, retrieve pixel colour values.
-2. Shift values circular left by 1.
-3. Convert colour values to ASCII character.
-4. Rinse and repeat till you get the flag.
+Solution to this challenge can be done in many ways, though my personal recommendation is through Python's `PIL` library.
 
-## Flag
+Initially, receiving the file might give some people headaches wondering how I hid the message. Well, the very interesting pattern of shades of grey pixels might give you a hint. The message is encoded in the red, blue and green values of the pixels.
+
+Reading the pixels from top left to top right will grant you the message, it's really easily solved in [Python](solution/solve.py). You might need to install `pip` and run `pip install pillow` to get the neccessary libraries for this to work.
+
+### Flag
 `GCTF{p1x3l1z3d_53cr375_4r3_h4w7}`

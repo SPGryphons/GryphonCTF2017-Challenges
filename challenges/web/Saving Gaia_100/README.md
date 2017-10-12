@@ -9,7 +9,7 @@ Web 100
 ## Question
 >Please save the environment to get the flag!
 >
->Connect via `http://<ip address>:17565`
+>http://web.chal.gryphonctf.com:17565
 
 ### Hint
 `The journal contains the necessary information to find the PHP source code`
@@ -18,9 +18,6 @@ Web 100
 
 ## Setup Guide
 Do `sudo bash build.sh`
-
-## Distribution
-No files to be distributed
 
 ## Solution
 A pretty simple challenge if you know what a `hash length extension` attack is.
@@ -130,5 +127,3 @@ Mindreader - 50pts
 
 Hashpump
 
-## Recommended Reads
-None.

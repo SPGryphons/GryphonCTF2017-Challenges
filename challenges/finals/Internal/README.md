@@ -27,7 +27,5 @@ Creators - @void, @exetr & @zxlim
 12. Opening up the files, you will see that there is a file that contains some text that seems to be encoded in Base64
 13. You can get the flag easily using any online base64 decoder
 
-## Recommended Reads
-
-## Flag
+### Flag
 `GCTF{wir3l355_i5_s0_much_>_th4n_3th3rn37}`

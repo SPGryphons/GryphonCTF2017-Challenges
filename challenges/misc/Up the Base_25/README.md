@@ -9,9 +9,6 @@ Misc 25
 ## Question
 >My friend always felt that Twitter was not able to accomodate to his grandfather story with the measly 140 character limit. He recently learnt about Base Encoding. Since Twitter accepts unicode characters, he decided to increase the base.
 
-### Hint
-None.
-
 ## Setup Guide
 Run `make all`
 
@@ -46,6 +43,3 @@ print(base65536.decode(value).decode())
 
 ## Credits
 https://github.com/qntm/base65536
-
-## Recommended Reads
-None.

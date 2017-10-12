@@ -9,16 +9,13 @@ Pwn 150
 ## Question
 >You are not yourself when you are hungry. Have a CTF challenge and stop <i>bashing</i> people up.
 >
->Connect via `nc <ip address> 17345`
+>`nc pwn1.chal.gryphonctf.com 17345`
 
 ### Hint
 `I hate needles`
 
 ## Setup Guide
 Do `sudo bash build.sh`
-
-## Distribution
-None.
 
 ## Solutions
 ### Intended Solution
@@ -202,6 +199,3 @@ No files to be distributed
 Misc.
 
 hohoho - 350pts
-
-## Recommended Reads
-None.

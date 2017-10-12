@@ -3,14 +3,12 @@
 ## Question Text
 I created this service where you can leave files for other people to view! I have been getting good reviews.. <br>what do you think about it?
 
+`nc pwn1.chal.gryphonctf.com 17342`
+
 Created by paux
 
 ## Setup Guide
 1. run `bash start.sh`
-
-## Distribution
-`<ip>:<port>`
-port is currently set to `17342`
 
 ## Solution
 1.	basically, you just have to exploit that the program can open files.. however, the file name has to be short and there must be a username of at least 3 characters long
@@ -20,8 +18,5 @@ port is currently set to `17342`
 5.	checking the py file again will reveal thet the function check will return the added values of the ascii values of the string fed to it
 6.	therefore, after entering `653` you get the flag
 
-
-## Recommended Reads
-
-## Flag
+### Flag
 `GCTF{in53cur3_fi13_tr4n5f3r}`

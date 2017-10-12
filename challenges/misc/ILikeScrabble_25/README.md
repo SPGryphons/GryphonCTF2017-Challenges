@@ -16,7 +16,5 @@ text file
 1.  The text file is actually a simple [`BeatNik`](http://search.cpan.org/dist/Acme-Beatnik/Beatnik.pm) code that takes in a string (the password) and returns the flag
 2.  testing on participants knowledge / flexability of esoteric languages
 
-## Recommended Reads
-
-## Flag
+### Flag
 `GCTF{e5ot3r1c_ftw}`
