@@ -1,6 +1,6 @@
 #! /bin/bash
 ##
-# Created for GryphonCTF 2017_PseudoShell
+# Created for GryphonCTF 2017 Tsundeflow
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
 # Script misc
@@ -10,6 +10,6 @@ cd $SCRIPTPATH
 
 # Build image
 docker build -t pseudoshell .
-
+./run.sh
 # Return directory
 cd -

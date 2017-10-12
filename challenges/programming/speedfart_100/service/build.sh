@@ -10,6 +10,7 @@ cd $SCRIPTPATH
 
 # Build image
 docker build -t speedfart .
+./run.sh 
 
 # Return directory
 cd -
