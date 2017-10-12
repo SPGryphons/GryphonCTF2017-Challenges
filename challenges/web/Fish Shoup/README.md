@@ -1,8 +1,5 @@
 # Fish Shoup
 
-## Category
-Web 50
-
 ## Question Text
 
 >Help all marshmellow fart and skittle burp fishes!!!

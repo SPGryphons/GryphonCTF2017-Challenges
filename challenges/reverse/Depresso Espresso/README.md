@@ -3,9 +3,6 @@ Reverse Engineering Java code
 
 <i>Creator - @Platy</i>
 
-## Category
-Reversing
-
 ## Question
 >I've intercepted a couple of files. I've been trying to work out how to use the program but it constantly gives me an error. I've drank countless cups of java, but I'm still stuck. Help me please!
 

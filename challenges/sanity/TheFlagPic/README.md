@@ -5,9 +5,6 @@ Editing hex to hide message in jpg.
 
 Creator - @ Jiayi
 
-## Category
-Sanity
-
 ## Question Text
 Can you find the flag in the flag ?
 
