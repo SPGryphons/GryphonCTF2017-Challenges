@@ -1,3 +1,9 @@
+> **DISCLAIMER:**
+> <br>
+> This challenge contains code that will attempt to initiate a connection to a remote IRC Server. You are adviced to analyse the source code before running the compiled binary.
+> <br><br>
+> As DISM Gryphons is not in control of the IRC Server, you agree to not hold DISM Gryphons responsible or liable for anything that happens resulting from this challenge.
+
 # Genesis
 As the first book in the Bible, Genesis is the mark of the beginning. This is a 5-part + 1-bonus challenge, every level should be represented as a different challenge but all should have the same Challenge Text.
 
