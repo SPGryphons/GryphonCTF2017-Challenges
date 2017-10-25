@@ -15,10 +15,7 @@ _Creator - @LFlare_
 2. Build and runserver docker image with `cd service && ./build.sh`.
 
 ## Solution
-1. Simple buffer overflow to overwrite `access`.
-2. Get flag.
-
-<i>The creator did not published the full solutions for this challenge.</i>
+**_Solutions in the `./solution` folder linked [HERE](./solution)_**
 
 ### Flag
 `GCTF{0ff_by_0n3_r34lly_5uck5}`

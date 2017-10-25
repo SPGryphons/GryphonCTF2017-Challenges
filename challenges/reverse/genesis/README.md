@@ -20,8 +20,7 @@ _Creator - @LFlare_
 2. Build and run server docker image with `./service/build.sh`.
 
 ## Solution
-
-<i>The creator did not published the full solutions for this challenge.</i>
+**_Solutions in the `./solution` folder linked [HERE](./solution)_**
 
 ### Flag
 1. `GCTF{w3lc0m3_70_r3v3r53_3n61n33r1n6}`

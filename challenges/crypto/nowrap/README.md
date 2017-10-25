@@ -9,10 +9,7 @@ Creator: Amos (LFlare) Ng
 ```
 
 ## Solution
-1. Cube root `c`.
-2. Convert base-10 to ASCII flag.
-
-<i>The creator did not published the full solutions for this challenge.</i>
+**_Solutions in the `./solution` folder linked [HERE](./solution)_**
 
 ### Flag
 `GCTF{7h3_m355463_15_h1l4r10u5ly_5h0r7}`

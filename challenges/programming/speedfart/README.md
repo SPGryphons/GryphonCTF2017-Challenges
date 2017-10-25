@@ -11,9 +11,7 @@ _Creator - @LFlare_
 ```
 
 ## Solution
-1. This is a challenge on brainf*ck, so get an interpreter or code your own.
-2. Connect to server and solve lines of code.
-3. Get flag.
+**_Solutions in the `./solution` folder linked [HERE](./solution)_**
 
 ## Setup
 1. Build server docker image with `cd service && ./build.sh`.

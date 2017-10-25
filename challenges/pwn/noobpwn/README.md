@@ -15,12 +15,7 @@ _Creator - @LFlare_
 2. Build and run server docker image with `cd service && ./build.sh`.
 
 ## Solution
-1. Apply the Euler's Algorithm to the binary.
-2. Submit `0x31337` as decimal to read from `stdin`.
-3. Enter in `GIMMEDAFLAG`.
-4. Get flag.
-
-<i>The creator did not published the full solutions for this challenge.</i>
+**_Solutions in the `./solution` folder linked [HERE](./solution)_**
 
 ### Flag
 `GCTF{f1l3_d35cr1p70r5_4r3_n457y}`

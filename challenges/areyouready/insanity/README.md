@@ -11,12 +11,7 @@ Created By: Amos (LFlare) Ng
 ```
 
 ## Solution
-1. Decode text from base32
-2. Decode text from base64
-3. Decode text from base32
-4. Decode text from base16.
-5. Decode text from base64
-6. Get the flag.
+**_Solutions in the `./solution` folder linked [HERE](./solution)_**
 
 ### Flag
 `GCTF{b4535_4r3_c0nfu51n6_m4n}`
